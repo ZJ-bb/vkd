@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>词根词缀记忆大师 - 英语学习小助手</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="logo">🌱</span>
+                <span class="brand-text">词根词缀记忆大师</span>
+            </div>
+            <div class="nav-links">
+                <button class="nav-btn active" data-page="home">🏠 首页</button>
+                <button class="nav-btn" data-page="prefix">🧱 前缀</button>
+                <button class="nav-btn" data-page="suffix">🔑 后缀</button>
+                <button class="nav-btn" data-page="roots">🌱 词根</button>
+                <button class="nav-btn" data-page="recite">📖 背诵表</button>
+                <button class="nav-btn" data-page="analyzer">🔧 拆解工具</button>
+                <button class="nav-btn" data-page="viktor">📚 维克多</button>
+                <button class="nav-btn" data-page="quiz">🎯 测验</button>
+            </div>
+            <div class="progress-summary">
+                <span class="progress-text">学习进度</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="progress-percent" id="progressPercent">0%</span>
+            </div>
+        </nav>
+
+        <!-- 首页 -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">英语词根词缀</span>
+                        <br>记忆大师
+                    </h1>
+                    <p class="hero-subtitle">掌握核心词根词缀，轻松串起几百个单词！</p>
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">46</span>
+                            <span class="stat-label">核心前缀</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">40</span>
+                            <span class="stat-label">万能后缀</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">271</span>
+                            <span class="stat-label">高频词根</span>
+                        </div>
+                    </div>
+                    <button class="cta-button" onclick="goToPage('prefix')">
+                        开始学习
+                        <span class="arrow">→</span>
+                    </button>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card" style="--delay: 0s">
+                        <span class="card-prefix">un-</span>
+                        <span class="card-meaning">不，无</span>
+                    </div>
+                    <div class="floating-card" style="--delay: 0.5s">
+                        <span class="card-prefix">-tion</span>
+                        <span class="card-meaning">名词后缀</span>
+                    </div>
+                    <div class="floating-card" style="--delay: 1s">
+                        <span class="card-prefix">vis</span>
+                        <span class="card-meaning">看</span>
+                    </div>
+                    <div class="floating-card" style="--delay: 1.5s">
+                        <span class="card-prefix">re-</span>
+                        <span class="card-meaning">回，再</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="learning-path">
+                <h2 class="section-title">📚 学习路径</h2>
+                <div class="path-cards">
+                    <div class="path-card" onclick="goToPage('prefix')">
+                        <div class="path-icon">🧱</div>
+                        <h3>第一步：掌握前缀</h3>
+                        <p>un-, dis-, re-, pre- 等核心前缀，改变单词方向和态度</p>
+                        <div class="path-progress">
+                            <div class="path-bar" id="prefixProgress"></div>
+                        </div>
+                    </div>
+                    <div class="path-card" onclick="goToPage('suffix')">
+                        <div class="path-icon">🔑</div>
+                        <h3>第二步：搞定后缀</h3>
+                        <p>-tion, -able, -er, -ly 等后缀，判断单词词性</p>
+                        <div class="path-progress">
+                            <div class="path-bar" id="suffixProgress"></div>
+                        </div>
+                    </div>
+                    <div class="path-card" onclick="goToPage('roots')">
+                        <div class="path-icon">🌱</div>
+                        <h3>第三步：学习词根</h3>
+                        <p>vis, port, dict 等10个高频词根，串起几百个词</p>
+                        <div class="path-progress">
+                            <div class="path-bar" id="rootsProgress"></div>
+                        </div>
+                    </div>
+                    <div class="path-card" onclick="goToPage('recite')">
+                        <div class="path-icon">📖</div>
+                        <h3>第四步：背诵表</h3>
+                        <p>357个词根词缀集中背诵，支持搜索和分类筛选</p>
+                        <div class="path-progress">
+                            <div class="path-bar" id="reciteProgress"></div>
+                        </div>
+                    </div>
+                    <div class="path-card" onclick="goToPage('quiz')">
+                        <div class="path-icon">🎯</div>
+                        <h3>第五步：挑战测验</h3>
+                        <p>通过互动测验巩固记忆，检验学习成果</p>
+                        <div class="path-progress">
+                            <div class="path-bar" id="quizProgress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 前缀页面 -->
+        <section id="prefix" class="page">
+            <div class="page-header">
+                <h1 class="page-title">🧱 核心前缀</h1>
+                <p class="page-desc">前缀改变单词的意思或方向，但不改变词性</p>
+            </div>
+            
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="negative">否定/相反</button>
+                <button class="category-tab" data-category="direction">方向/位置</button>
+                <button class="category-tab" data-category="degree">程度/数量</button>
+                <button class="category-tab" data-category="other">其他常用</button>
+            </div>
+
+            <div class="cards-container" id="prefixCards">
+                <!-- 动态生成 -->
+            </div>
+        </section>
+
+        <!-- 后缀页面 -->
+        <section id="suffix" class="page">
+            <div class="page-header">
+                <h1 class="page-title">🔑 万能后缀</h1>
+                <p class="page-desc">后缀决定单词是名词、动词、形容词还是副词</p>
+            </div>
+            
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="noun">名词后缀</button>
+                <button class="category-tab" data-category="adjective">形容词后缀</button>
+                <button class="category-tab" data-category="verb-adv">动词/副词后缀</button>
+            </div>
+
+            <div class="cards-container" id="suffixCards">
+                <!-- 动态生成 -->
+            </div>
+        </section>
+
+        <!-- 词根页面 -->
+        <section id="roots" class="page">
+            <div class="page-header">
+                <h1 class="page-title">🌱 高频核心词根</h1>
+                <p class="page-desc">掌握这10个词根，能串起几百个单词</p>
+            </div>
+
+            <div class="roots-grid" id="rootsGrid">
+                <!-- 动态生成 -->
+            </div>
+        </section>
+
+        <!-- 背诵表页面 -->
+        <section id="recite" class="page">
+            <div class="page-header">
+                <h1 class="page-title">📖 词根词缀背诵表</h1>
+                <p class="page-desc">从维克多单词手册中提取的全部前缀、词根、后缀，支持搜索和分类筛选</p>
+            </div>
+
+            <div class="recite-search-box">
+                <input type="text" class="recite-search-input" id="reciteSearchInput" placeholder="🔍 搜索词根词缀或例词，比如 ac-, cept, -tion..." autocomplete="off">
+            </div>
+
+            <div class="recite-filter-bar" id="reciteFilterBar">
+                <button class="recite-filter-btn active" data-filter="all">全部</button>
+                <button class="recite-filter-btn" data-filter="prefix">🧱 前缀</button>
+                <button class="recite-filter-btn" data-filter="root">🌱 词根</button>
+                <button class="recite-filter-btn" data-filter="suffix">🔑 后缀</button>
+            </div>
+
+            <div class="recite-stats" id="reciteStats"></div>
+
+            <div class="recite-grid" id="reciteGrid">
+                <!-- 动态生成 -->
+            </div>
+
+            <div class="recite-no-result hidden" id="reciteNoResult">
+                没有找到匹配的词根词缀，换个关键词试试？
+            </div>
+        </section>
+
+        <!-- 拆解工具页面 -->
+        <section id="analyzer" class="page">
+            <div class="page-header">
+                <h1 class="page-title">🔧 单词拆解工具</h1>
+                <p class="page-desc">输入任意英语单词，自动拆解出前缀、词根、后缀</p>
+            </div>
+
+            <div class="analyzer-box">
+                <div class="analyzer-input-wrap">
+                    <input type="text" class="analyzer-input" id="analyzerInput" placeholder="输入单词，比如 international、impossible、beautiful..." autocomplete="off">
+                    <button class="analyzer-btn" id="analyzerBtn" onclick="analyzeWord()">🔍 拆解</button>
+                </div>
+                <div class="analyzer-hint">支持回车键快速拆解</div>
+            </div>
+
+            <div class="analyzer-result hidden" id="analyzerResult">
+                <div class="analyzer-word" id="analyzerWord"></div>
+                <div class="analyzer-parts" id="analyzerParts"></div>
+                <div class="analyzer-meaning" id="analyzerMeaning"></div>
+            </div>
+
+            <div class="analyzer-empty" id="analyzerEmpty">
+                <div class="analyzer-empty-icon">✨</div>
+                <p>输入一个单词，看看它藏着哪些秘密！</p>
+                <div class="analyzer-examples">
+                    <span class="analyzer-example-chip" onclick="quickAnalyze('international')">international</span>
+                    <span class="analyzer-example-chip" onclick="quickAnalyze('impossible')">impossible</span>
+                    <span class="analyzer-example-chip" onclick="quickAnalyze('beautiful')">beautiful</span>
+                    <span class="analyzer-example-chip" onclick="quickAnalyze('transport')">transport</span>
+                    <span class="analyzer-example-chip" onclick="quickAnalyze('unhappy')">unhappy</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 维克多页面 -->
+        <section id="viktor" class="page">
+            <div class="viktor-toolbar">
+                <div class="viktor-day-select">
+                    <label for="viktorDaySelect">选择天数</label>
+                    <select id="viktorDaySelect" onchange="renderViktorList()">
+                        <option value="">-- 请选择 Day --</option>
+                    </select>
+                </div>
+                <button class="viktor-random-btn viktor-random-en" id="viktorRandomBtn" onclick="startViktorRandom('en')" style="display:none;">
+                    🇬🇧 按英文抽查
+                </button>
+                <button class="viktor-random-btn viktor-random-cn" id="viktorRandomCnBtn" onclick="startViktorRandom('cn')" style="display:none;">
+                    🇨🇳 按中文抽查
+                </button>
+            </div>
+
+            <div class="viktor-list" id="viktorList">
+                <!-- 动态生成 -->
+            </div>
+
+            <div class="viktor-empty" id="viktorEmpty">
+                <div class="viktor-empty-icon">📚</div>
+                <p>请从上方下拉菜单选择一个 Day，查看该天的单词列表</p>
+            </div>
+
+            <!-- 随机抽查面板 -->
+            <div class="viktor-random-panel hidden" id="viktorRandomPanel">
+                <div class="viktor-random-overlay" onclick="closeViktorRandom()"></div>
+                <div class="viktor-random-card">
+                    <button class="viktor-random-close" onclick="closeViktorRandom()">✕</button>
+                    <div class="viktor-random-mode" id="viktorRandomMode"></div>
+                    <div class="viktor-random-day" id="viktorRandomDay"></div>
+                    <div class="viktor-random-questions" id="viktorRandomQuestions">
+                        <!-- 动态生成5题 -->
+                    </div>
+                    <div class="viktor-random-actions">
+                        <button class="viktor-random-action-btn next" onclick="refreshViktorRandom()">🔄 重新抽题</button>
+                        <button class="viktor-random-action-btn show" id="viktorShowAllBtn" onclick="showAllViktorAnswers()">📖 显示全部答案</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 测验页面 -->
+        <section id="quiz" class="page">
+            <div class="page-header">
+                <h1 class="page-title">🎯 互动测验</h1>
+                <p class="page-desc">通过练习巩固记忆，检验学习成果</p>
+            </div>
+
+            <div class="quiz-container" id="quizContainer">
+                <div class="quiz-start" id="quizStart">
+                    <div class="quiz-icon">🎮</div>
+                    <h2>准备好挑战了吗？</h2>
+                    <p>选择测验类型，检验你的学习成果</p>
+                    <div class="quiz-types">
+                        <button class="quiz-type-btn" onclick="startQuiz('prefix')">
+                            <span class="quiz-type-icon">🧱</span>
+                            <span class="quiz-type-name">前缀测验</span>
+                            <span class="quiz-type-count">25题</span>
+                        </button>
+                        <button class="quiz-type-btn" onclick="startQuiz('suffix')">
+                            <span class="quiz-type-icon">🔑</span>
+                            <span class="quiz-type-name">后缀测验</span>
+                            <span class="quiz-type-count">20题</span>
+                        </button>
+                        <button class="quiz-type-btn" onclick="startQuiz('roots')">
+                            <span class="quiz-type-icon">🌱</span>
+                            <span class="quiz-type-name">词根测验</span>
+                            <span class="quiz-type-count">15题</span>
+                        </button>
+                        <button class="quiz-type-btn" onclick="startQuiz('mixed')">
+                            <span class="quiz-type-icon">🌟</span>
+                            <span class="quiz-type-name">综合测验</span>
+                            <span class="quiz-type-count">25题</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="quiz-game" id="quizGame" style="display: none;">
+                    <div class="quiz-progress">
+                        <div class="quiz-progress-bar">
+                            <div class="quiz-progress-fill" id="quizProgressFill"></div>
+                        </div>
+                        <span class="quiz-progress-text" id="quizProgressText">1/20</span>
+                    </div>
+                    
+                    <div class="quiz-score">
+                        <span class="score-label">得分</span>
+                        <span class="score-value" id="scoreValue">0</span>
+                    </div>
+
+                    <div class="quiz-question" id="quizQuestion">
+                        <!-- 动态生成 -->
+                    </div>
+
+                    <div class="quiz-options" id="quizOptions">
+                        <!-- 动态生成 -->
+                    </div>
+
+                    <div class="quiz-feedback" id="quizFeedback" style="display: none;">
+                        <!-- 动态生成 -->
+                    </div>
+
+                    <button class="quiz-next-btn" id="quizNextBtn" style="display: none;" onclick="nextQuestion()">
+                        下一题 →
+                    </button>
+                </div>
+
+                <div class="quiz-result" id="quizResult" style="display: none;">
+                    <div class="result-icon" id="resultIcon">🎉</div>
+                    <h2 class="result-title" id="resultTitle">测验完成！</h2>
+                    <div class="result-score">
+                        <span class="result-score-value" id="resultScore">0</span>
+                        <span class="result-score-total">/ <span id="resultTotal">20</span></span>
+                    </div>
+                    <p class="result-message" id="resultMessage">继续加油！</p>
+                    <div class="result-details" id="resultDetails">
+                        <!-- 动态生成 -->
+                    </div>
+                    <div class="result-actions">
+                        <button class="result-btn primary" onclick="restartQuiz()">再测一次</button>
+                        <button class="result-btn secondary" onclick="goToPage('home')">返回首页</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="reciteData.js"></script>
+    <script src="viktorData.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
