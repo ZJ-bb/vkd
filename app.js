@@ -63,13 +63,17 @@ function goToPage(pageName) {
     document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
     document.getElementById(pageName).classList.add('active');
 
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelector(`.nav-btn[data-page="${pageName}"]`)?.classList.add('active');
+    document.querySelectorAll('.nav-btn, .nav-dropdown-item').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll(`.nav-btn[data-page="${pageName}"], .nav-dropdown-item[data-page="${pageName}"]`).forEach(btn => btn.classList.add('active'));
 
     // 切换到维克多页面时初始化下拉框
     if (pageName === 'viktor') {
         initViktorDays();
     }
+
+    // 关闭移动端下拉菜单
+    const dropdown = document.getElementById('navDropdown');
+    if (dropdown) dropdown.classList.remove('open');
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -77,6 +81,15 @@ function goToPage(pageName) {
 // 导航按钮点击事件
 document.querySelectorAll('.nav-btn').forEach(btn => {
     btn.addEventListener('click', () => goToPage(btn.dataset.page));
+});
+
+// 移动端下拉菜单
+document.querySelectorAll('.nav-dropdown-item').forEach(btn => {
+    btn.addEventListener('click', () => goToPage(btn.dataset.page));
+});
+
+document.getElementById('navMenuToggle')?.addEventListener('click', () => {
+    document.getElementById('navDropdown').classList.toggle('open');
 });
 
 // ===== 渲染前缀卡片 =====
@@ -704,11 +717,35 @@ let viktorRandomPool = [];
 let viktorRandomMode = 'en';
 let viktorRandomQuestions = [];
 let viktorAnswersShown = false;
+let viktorCurrentBank = 'all';
+
+// 学会/未学会 存储在 localStorage
+function getViktorMastered() {
+    try { return JSON.parse(localStorage.getItem('viktorMastered') || '{}'); } catch { return {}; }
+}
+function setViktorMastered(map) {
+    localStorage.setItem('viktorMastered', JSON.stringify(map));
+}
+function toggleMastered(word) {
+    const m = getViktorMastered();
+    m[word] = !m[word];
+    setViktorMastered(m);
+    renderViktorList();
+}
+function isMastered(word) {
+    return !!getViktorMastered()[word];
+}
+
+function switchViktorBank(bank, btn) {
+    viktorCurrentBank = bank;
+    document.querySelectorAll('.viktor-bank-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+    renderViktorList();
+}
 
 function initViktorDays() {
     const select = document.getElementById('viktorDaySelect');
     if (!select || !viktorData) return;
-    // 避免重复填充：如果已有超过1个选项，说明已经初始化过
     if (select.options.length > 1) return;
     const days = [...new Set(viktorData.map(w => w.day))].sort((a, b) => {
         const na = parseInt(a.replace('Day ', ''));
@@ -729,14 +766,18 @@ function renderViktorList() {
     const empty = document.getElementById('viktorEmpty');
     const randomBtn = document.getElementById('viktorRandomBtn');
     const randomCnBtn = document.getElementById('viktorRandomCnBtn');
+    const statsEl = document.getElementById('viktorBankStats');
     if (!select || !list) return;
 
     viktorCurrentDay = select.value;
-    if (!viktorCurrentDay) {
+
+    // 未选 Day 时，按bank模式显示
+    if (!viktorCurrentDay && viktorCurrentBank === 'all') {
         list.innerHTML = '';
         empty.style.display = 'block';
         randomBtn.style.display = 'none';
         randomCnBtn.style.display = 'none';
+        statsEl.innerHTML = '';
         return;
     }
 
@@ -744,22 +785,80 @@ function renderViktorList() {
     randomBtn.style.display = 'inline-flex';
     randomCnBtn.style.display = 'inline-flex';
 
-    const words = viktorData.filter(w => w.day === viktorCurrentDay);
+    // 按bank筛选
+    let words;
+    if (viktorCurrentDay) {
+        words = viktorData.filter(w => w.day === viktorCurrentDay);
+    } else {
+        words = viktorData;
+    }
+
+    const mastered = getViktorMastered();
+
+    if (viktorCurrentBank === 'learned') {
+        words = words.filter(w => mastered[w.word]);
+    } else if (viktorCurrentBank === 'unlearned') {
+        words = words.filter(w => !mastered[w.word]);
+    }
+
+    // 更新统计
+    const allWords = viktorCurrentDay ? viktorData.filter(w => w.day === viktorCurrentDay) : viktorData;
+    const learnedCount = allWords.filter(w => mastered[w.word]).length;
+    const total = allWords.length;
+    if (statsEl) {
+        statsEl.innerHTML = `<span>共 ${total} 词</span><span class="bank-learned-stat">✅ 已学会 ${learnedCount}</span><span class="bank-unlearned-stat">❌ 未学会 ${total - learnedCount}</span>`;
+    }
+
+    // 更新抽查池
     viktorRandomPool = words;
 
-    list.innerHTML = words.map((w, i) => `
-        <div class="viktor-word-card" style="animation-delay:${(i % 10) * 0.04}s">
-            <div class="viktor-word-header">
-                <span class="viktor-word-name">${w.word}</span>
-                <span class="viktor-word-pos">${w.pos}</span>
+    if (words.length === 0) {
+        list.innerHTML = '<div class="viktor-empty"><div class="viktor-empty-icon">🎉</div><p>这个分类下暂时没有单词</p></div>';
+        return;
+    }
+
+    list.innerHTML = words.map((w, i) => {
+        const mastered_flag = mastered[w.word];
+        const cardClass = mastered_flag ? 'viktor-word-card viktor-card-learned' : 'viktor-word-card';
+        const toggleIcon = mastered_flag ? '✅' : '❌';
+        const toggleText = mastered_flag ? '已学会' : '未学会';
+        return `
+        <div class="${cardClass}" style="animation-delay:${(i % 10) * 0.04}s">
+            <div class="viktor-card-top">
+                <div class="viktor-word-header">
+                    <span class="viktor-word-name viktor-section-en">${w.word}</span>
+                    <span class="viktor-word-pos">${w.pos}</span>
+                    <span class="viktor-word-cn-inline">${w.cn || ''}</span>
+                    <button class="viktor-master-btn ${mastered_flag ? 'mastered' : ''}" onclick="toggleMastered('${w.word}')" title="${toggleText}">${toggleIcon}</button>
+                    <button class="viktor-toggle-btn" onclick="toggleCardSection(this,'all-detail')" title="显示/隐藏拆解">📋</button>
+                </div>
             </div>
-            <div class="viktor-word-formula">${w.formula}</div>
-            ${w.prefix ? `<div class="viktor-word-part viktor-prefix"><b>前缀</b>：${w.prefix}</div>` : ''}
-            ${w.root ? `<div class="viktor-word-part viktor-root"><b>词根</b>：${w.root}</div>` : ''}
-            ${w.suffix ? `<div class="viktor-word-part viktor-suffix"><b>后缀</b>：${w.suffix}</div>` : ''}
-            ${w.combo ? `<div class="viktor-word-part viktor-combo"><b>组合</b>：${w.combo}</div>` : ''}
-        </div>
-    `).join('');
+            <div class="viktor-word-breakdown">
+                <div class="viktor-word-formula">${w.formula}</div>
+                <div class="viktor-word-details">
+                    ${w.prefix ? `<div class="viktor-word-part viktor-prefix"><b>前缀</b>：${w.prefix}</div>` : ''}
+                    ${w.root ? `<div class="viktor-word-part viktor-root"><b>词根</b>：${w.root}</div>` : ''}
+                    ${w.suffix ? `<div class="viktor-word-part viktor-suffix"><b>后缀</b>：${w.suffix}</div>` : ''}
+                    ${w.combo ? `<div class="viktor-word-part viktor-combo"><b>组合</b>：${w.combo}</div>` : ''}
+                </div>
+            </div>
+        </div>`;
+    }).join('');
+}
+
+function toggleCardSection(btn, section) {
+    const card = btn.closest('.viktor-word-card');
+    if (section === 'all-detail') {
+        const breakdown = card.querySelector('.viktor-word-breakdown');
+        if (!breakdown) return;
+        const isHidden = breakdown.classList.toggle('viktor-section-hidden');
+        btn.style.opacity = isHidden ? '0.4' : '1';
+    } else {
+        const el = card.querySelector('.viktor-section-' + section);
+        if (!el) return;
+        const isHidden = el.classList.toggle('viktor-section-hidden');
+        btn.style.opacity = isHidden ? '0.4' : '1';
+    }
 }
 
 // 随机抽查：一次抽5题
@@ -767,6 +866,7 @@ function startViktorRandom(mode) {
     if (!viktorRandomPool.length) return;
     viktorRandomMode = mode;
     viktorAnswersShown = false;
+    viktorAnswerStage = 0;
     document.getElementById('viktorRandomPanel').classList.remove('hidden');
     document.getElementById('viktorShowAllBtn').textContent = '📖 显示全部答案';
     generateViktorQuestions();
@@ -788,7 +888,7 @@ function renderViktorQuestions() {
     const dayEl = document.getElementById('viktorRandomDay');
     const qsEl = document.getElementById('viktorRandomQuestions');
 
-    modeEl.textContent = viktorRandomMode === 'en' ? '🇬🇧 按英文抽查 — 看英文，回忆拆解' : '🇨🇳 按中文抽查 — 看拆解，回忆单词';
+    modeEl.textContent = viktorRandomMode === 'en' ? '🇬🇧 按英文抽查 — 看英文，回忆中文' : '🇨🇳 按中文抽查 — 看中文，回忆英文';
     dayEl.textContent = `${viktorRandomQuestions[0]?.day || ''} — 共5题`;
 
     qsEl.innerHTML = viktorRandomQuestions.map((q, i) => {
@@ -800,62 +900,96 @@ function renderViktorQuestions() {
         ].join('');
 
         if (viktorRandomMode === 'en') {
-            // 英文抽查：显示英文单词，答案=拆解
+            // 英文抽查：初始只显示英文，点击显示答案显示中文，再点击展开拆解
             return `
                 <div class="viktor-qa-card" data-index="${i}">
-                    <div class="viktor-qa-question">
+                    <div class="viktor-qa-line">
                         <span class="viktor-qa-num">${i + 1}</span>
                         <span class="viktor-qa-word">${q.word}</span>
                         <span class="viktor-qa-pos">${q.pos}</span>
+                        <span class="viktor-qa-cn viktor-qa-hidden">${q.cn || ''}</span>
                     </div>
-                    <div class="viktor-qa-answer" id="viktorAnswer${i}">
+                    <div class="viktor-qa-breakdown viktor-qa-hidden">
                         <div class="viktor-qa-formula">${q.formula}</div>
                         ${partsHtml}
                     </div>
                 </div>
             `;
         } else {
-            // 中文抽查：显示拆解，答案=英文单词
+            // 中文抽查：初始只显示中文，点击显示答案显示英文，再点击展开拆解
             return `
                 <div class="viktor-qa-card" data-index="${i}">
-                    <div class="viktor-qa-question">
+                    <div class="viktor-qa-line">
                         <span class="viktor-qa-num">${i + 1}</span>
-                        <span class="viktor-qa-hint">${q.formula}</span>
+                        <span class="viktor-qa-cn">${q.cn || ''}</span>
+                        <span class="viktor-qa-word viktor-qa-hidden">${q.word}</span>
+                        <span class="viktor-qa-pos viktor-qa-hidden">${q.pos}</span>
                     </div>
-                    <div class="viktor-qa-hint-parts">${partsHtml}</div>
-                    <div class="viktor-qa-answer" id="viktorAnswer${i}">
-                        <span class="viktor-qa-word">${q.word}</span>
-                        <span class="viktor-qa-pos">${q.pos}</span>
+                    <div class="viktor-qa-breakdown viktor-qa-hidden">
+                        <div class="viktor-qa-formula">${q.formula}</div>
+                        ${partsHtml}
                     </div>
                 </div>
             `;
         }
     }).join('');
 
-    // 初始隐藏所有答案
-    document.querySelectorAll('.viktor-qa-answer').forEach(el => {
-        el.classList.add('viktor-qa-hidden');
-    });
-    document.querySelectorAll('.viktor-qa-hint-parts').forEach(el => {
-        el.classList.remove('viktor-qa-hidden');
-    });
+    // 初始状态：中文/英文隐藏的已加 viktor-qa-hidden，拆解也已加
 }
 
+// 点击题目行，展开或收起拆解详情
+function toggleQaBreakdown(lineEl) {
+    const card = lineEl.closest('.viktor-qa-card');
+    if (!card) return;
+    const bd = card.querySelector('.viktor-qa-breakdown');
+    if (!bd) return;
+    bd.classList.toggle('viktor-qa-hidden');
+}
+
+let viktorAnswerStage = 0; // 0=初始 1=显示答案 2=显示拆解
 function showAllViktorAnswers() {
     const btn = document.getElementById('viktorShowAllBtn');
-    viktorAnswersShown = !viktorAnswersShown;
-    document.querySelectorAll('.viktor-qa-answer').forEach(el => {
-        if (viktorAnswersShown) {
+    viktorAnswerStage = (viktorAnswerStage + 1) % 3;
+
+    if (viktorAnswerStage === 1) {
+        // 第一阶段：显示答案（补全隐藏的语言），拆解仍隐藏
+        document.querySelectorAll('.viktor-qa-card').forEach(card => {
+            card.querySelectorAll('.viktor-qa-line .viktor-qa-hidden').forEach(el => {
+                el.classList.remove('viktor-qa-hidden');
+            });
+            const bd = card.querySelector('.viktor-qa-breakdown');
+            if (bd) bd.classList.add('viktor-qa-hidden');
+        });
+        btn.textContent = '📋 显示全部拆解';
+    } else if (viktorAnswerStage === 2) {
+        // 第二阶段：显示拆解
+        document.querySelectorAll('.viktor-qa-breakdown').forEach(el => {
             el.classList.remove('viktor-qa-hidden');
-        } else {
-            el.classList.add('viktor-qa-hidden');
-        }
-    });
-    btn.textContent = viktorAnswersShown ? '🙈 隐藏全部答案' : '📖 显示全部答案';
+        });
+        btn.textContent = '🔄 全部收起';
+    } else {
+        // 第三阶段：全部收起（恢复初始）
+        document.querySelectorAll('.viktor-qa-card').forEach(card => {
+            // 隐藏答案语言
+            if (viktorRandomMode === 'en') {
+                const cn = card.querySelector('.viktor-qa-line .viktor-qa-cn');
+                if (cn) cn.classList.add('viktor-qa-hidden');
+            } else {
+                const w = card.querySelector('.viktor-qa-line .viktor-qa-word');
+                const p = card.querySelector('.viktor-qa-line .viktor-qa-pos');
+                if (w) w.classList.add('viktor-qa-hidden');
+                if (p) p.classList.add('viktor-qa-hidden');
+            }
+            const bd = card.querySelector('.viktor-qa-breakdown');
+            if (bd) bd.classList.add('viktor-qa-hidden');
+        });
+        btn.textContent = '📖 显示全部答案';
+    }
 }
 
 function refreshViktorRandom() {
     viktorAnswersShown = false;
+    viktorAnswerStage = 0;
     document.getElementById('viktorShowAllBtn').textContent = '📖 显示全部答案';
     generateViktorQuestions();
     renderViktorQuestions();

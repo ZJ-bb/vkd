@@ -14,7 +14,7 @@
                 <span class="logo">🌱</span>
                 <span class="brand-text">词根词缀记忆大师</span>
             </div>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
                 <button class="nav-btn active" data-page="home">🏠 首页</button>
                 <button class="nav-btn" data-page="prefix">🧱 前缀</button>
                 <button class="nav-btn" data-page="suffix">🔑 后缀</button>
@@ -24,6 +24,9 @@
                 <button class="nav-btn" data-page="viktor">📚 维克多</button>
                 <button class="nav-btn" data-page="quiz">🎯 测验</button>
             </div>
+            <button class="nav-menu-toggle" id="navMenuToggle" aria-label="菜单">
+                <span></span><span></span><span></span>
+            </button>
             <div class="progress-summary">
                 <span class="progress-text">学习进度</span>
                 <div class="progress-bar">
@@ -32,6 +35,17 @@
                 <span class="progress-percent" id="progressPercent">0%</span>
             </div>
         </nav>
+        <!-- 移动端下拉菜单 -->
+        <div class="nav-dropdown" id="navDropdown">
+            <button class="nav-dropdown-item active" data-page="home">🏠 首页</button>
+            <button class="nav-dropdown-item" data-page="prefix">🧱 前缀</button>
+            <button class="nav-dropdown-item" data-page="suffix">🔑 后缀</button>
+            <button class="nav-dropdown-item" data-page="roots">🌱 词根</button>
+            <button class="nav-dropdown-item" data-page="recite">📖 背诵表</button>
+            <button class="nav-dropdown-item" data-page="analyzer">🔧 拆解工具</button>
+            <button class="nav-dropdown-item" data-page="viktor">📚 维克多</button>
+            <button class="nav-dropdown-item" data-page="quiz">🎯 测验</button>
+        </div>
 
         <!-- 首页 -->
         <section id="home" class="page active">
@@ -249,6 +263,11 @@
                         <option value="">-- 请选择 Day --</option>
                     </select>
                 </div>
+                <div class="viktor-bank-tabs">
+                    <button class="viktor-bank-btn active" data-bank="all" onclick="switchViktorBank('all',this)">全部</button>
+                    <button class="viktor-bank-btn bank-learned" data-bank="learned" onclick="switchViktorBank('learned',this)">✅ 已学会</button>
+                    <button class="viktor-bank-btn bank-unlearned" data-bank="unlearned" onclick="switchViktorBank('unlearned',this)">❌ 未学会</button>
+                </div>
                 <button class="viktor-random-btn viktor-random-en" id="viktorRandomBtn" onclick="startViktorRandom('en')" style="display:none;">
                     🇬🇧 按英文抽查
                 </button>
@@ -256,6 +275,8 @@
                     🇨🇳 按中文抽查
                 </button>
             </div>
+
+            <div class="viktor-bank-stats" id="viktorBankStats"></div>
 
             <div class="viktor-list" id="viktorList">
                 <!-- 动态生成 -->

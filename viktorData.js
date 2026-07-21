@@ -8,7 +8,8 @@ const viktorData = [
         "prefix": "ab-表'离开'",
         "root": "sent来自esse'存在'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "缺席的"
     },
     {
         "word": "accept",
@@ -18,7 +19,8 @@ const viktorData = [
         "prefix": "ac-是ad-在c前同化",
         "root": "cept来自capere'拿'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "接受"
     },
     {
         "word": "accident",
@@ -28,7 +30,8 @@ const viktorData = [
         "prefix": "ac-是ad-同化",
         "root": "cid来自cadere'落下'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "意外"
     },
     {
         "word": "active",
@@ -38,7 +41,8 @@ const viktorData = [
         "prefix": "",
         "root": "act来自agere'做'",
         "suffix": "ive 是形容词后缀，-ive 是个'形容词魔法师'，一加在词根后面，单词立刻变成形容词，表示'具有……性质的'。比如 active = 活跃的，creative = 有创造力的！",
-        "combo": ""
+        "combo": "",
+        "cn": "活跃的"
     },
     {
         "word": "activity",
@@ -48,7 +52,8 @@ const viktorData = [
         "prefix": "",
         "root": "act来自agere'做'",
         "suffix": "ity 是名词后缀，-ity 是抽象名词制造机！比如 reality = 现实！",
-        "combo": ""
+        "combo": "",
+        "cn": "活动"
     },
     {
         "word": "actress",
@@ -58,7 +63,8 @@ const viktorData = [
         "prefix": "",
         "root": "act来自agere'表演'",
         "suffix": "ess 是名词后缀，-ess 是个'公主标记'，表示女性。比如 actress = 女演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "女演员"
     },
     {
         "word": "additional",
@@ -68,7 +74,8 @@ const viktorData = [
         "prefix": "ad-表'朝向'",
         "root": "dit来自dare'给'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "另外的"
     },
     {
         "word": "advantage",
@@ -78,7 +85,8 @@ const viktorData = [
         "prefix": "ad-表'朝向'",
         "root": "vant来自ante'前面'",
         "suffix": "age 是名词后缀，-age 像个小仓库，把东西装进去变成名词。比如 storage = 储存的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "优势"
     },
     {
         "word": "adventure",
@@ -88,7 +96,8 @@ const viktorData = [
         "prefix": "ad-表'朝向'",
         "root": "vent来自venire'来'",
         "suffix": "ure 是名词后缀，-ure 表示结果。比如 pressure = 压力！",
-        "combo": ""
+        "combo": "",
+        "cn": "冒险"
     },
     {
         "word": "advice",
@@ -98,7 +107,8 @@ const viktorData = [
         "prefix": "ad-表'朝向'",
         "root": "vice来自visum'看'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "建议"
     },
     {
         "word": "advertise",
@@ -108,7 +118,8 @@ const viktorData = [
         "prefix": "ad-表'朝向'",
         "root": "vert来自vertere'转'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "打广告"
     },
     {
         "word": "advise",
@@ -118,7 +129,8 @@ const viktorData = [
         "prefix": "ad-表'朝向'",
         "root": "vis来自videre'看'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "建议"
     },
     {
         "word": "achieve",
@@ -128,7 +140,8 @@ const viktorData = [
         "prefix": "a-是ad-简写",
         "root": "chieve来自chief'头/结束'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "实现"
     },
     {
         "word": "abroad",
@@ -138,7 +151,8 @@ const viktorData = [
         "prefix": "a-表'在……上'",
         "root": "broad来自古英语'宽广'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "在海外"
     },
     {
         "word": "ability",
@@ -148,7 +162,8 @@ const viktorData = [
         "prefix": "ab-来自habilis",
         "root": "abil来自拉丁语'能够'",
         "suffix": "ity 是名词后缀，-ity 是抽象名词制造机！比如 reality = 现实！",
-        "combo": ""
+        "combo": "",
+        "cn": "能力"
     },
     {
         "word": "affect",
@@ -158,7 +173,8 @@ const viktorData = [
         "prefix": "af-是ad-在f前同化",
         "root": "fect来自facere'做'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "影响"
     },
     {
         "word": "afford",
@@ -168,7 +184,8 @@ const viktorData = [
         "prefix": "af-是ad-同化",
         "root": "ford与'向前'有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "承担得起"
     },
     {
         "word": "afraid",
@@ -178,7 +195,8 @@ const viktorData = [
         "prefix": "a-表状态",
         "root": "fraid来自古英语'害怕'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "害怕"
     },
     {
         "word": "after",
@@ -188,7 +206,8 @@ const viktorData = [
         "prefix": "af-是ad-在f前的同化变体，表示'朝向'",
         "root": "ter与'比较级'有关，整体来自古英语æfter",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "之后"
     },
     {
         "word": "agree",
@@ -198,7 +217,8 @@ const viktorData = [
         "prefix": "a-来自ad-",
         "root": "gree来自gratus'愉悦'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "同意"
     },
     {
         "word": "aim",
@@ -208,7 +228,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古法语esmer'估计/瞄准'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "目标"
     },
     {
         "word": "alive",
@@ -218,7 +239,8 @@ const viktorData = [
         "prefix": "a-表状态",
         "root": "live来自古英语'活'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "活着的"
     },
     {
         "word": "alarm",
@@ -228,7 +250,8 @@ const viktorData = [
         "prefix": "al-是ad-在l前同化",
         "root": "arm来自arma'武器'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "警报"
     },
     {
         "word": "airport",
@@ -238,7 +261,8 @@ const viktorData = [
         "prefix": "",
         "root": "air(航空)+port(港口)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "机场"
     },
     {
         "word": "allow",
@@ -248,7 +272,8 @@ const viktorData = [
         "prefix": "al-是ad-同化",
         "root": "low与'允许'有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "允许"
     },
     {
         "word": "although",
@@ -258,7 +283,8 @@ const viktorData = [
         "prefix": "al-是all变体",
         "root": "though来自古英语'虽然'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "尽管"
     },
     {
         "word": "aloud",
@@ -268,7 +294,8 @@ const viktorData = [
         "prefix": "a-表'在……上'",
         "root": "loud来自古英语'大声'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "出声地"
     },
     {
         "word": "alone",
@@ -278,7 +305,8 @@ const viktorData = [
         "prefix": "al-是all变体",
         "root": "one来自an'一'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "独自"
     },
     {
         "word": "along",
@@ -288,7 +316,8 @@ const viktorData = [
         "prefix": "a-表'在……上'",
         "root": "long来自古英语'长'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "沿着"
     },
     {
         "word": "amazed",
@@ -298,7 +327,8 @@ const viktorData = [
         "prefix": "a-表加强",
         "root": "maze来自amasen'惊奇'",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "吃惊的"
     },
     {
         "word": "amazing",
@@ -308,7 +338,8 @@ const viktorData = [
         "prefix": "a-表加强",
         "root": "maze来自amasen'惊奇'",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "令人惊讶的"
     },
     {
         "word": "amusement",
@@ -318,7 +349,8 @@ const viktorData = [
         "prefix": "a-表加强",
         "root": "muse来自拉丁语'沉思'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "娱乐活动"
     },
     {
         "word": "angry",
@@ -328,7 +360,8 @@ const viktorData = [
         "prefix": "",
         "root": "angr来自古挪威语'愤怒'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "生气的"
     },
     {
         "word": "annoy",
@@ -338,7 +371,8 @@ const viktorData = [
         "prefix": "an-是ad-在n前同化",
         "root": "noy与'恨'有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "使恼怒"
     },
     {
         "word": "another",
@@ -348,7 +382,8 @@ const viktorData = [
         "prefix": "an-是and变体'一'",
         "root": "other来自古英语'另一'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "再一；另一"
     },
     {
         "word": "anything",
@@ -358,7 +393,8 @@ const viktorData = [
         "prefix": "",
         "root": "any来自古英语ænig'任何'",
         "suffix": "thing来自古英语þing'事物'",
-        "combo": ""
+        "combo": "",
+        "cn": "任何事"
     },
     {
         "word": "anyway",
@@ -368,7 +404,8 @@ const viktorData = [
         "prefix": "",
         "root": "any来自古英语ænig'任何'",
         "suffix": "way来自古英语weg'路/方式'",
-        "combo": ""
+        "combo": "",
+        "cn": "反正"
     },
     {
         "word": "apologize",
@@ -378,7 +415,8 @@ const viktorData = [
         "prefix": "apo-表'远离'",
         "root": "log来自logos'说话'",
         "suffix": "ize 是动词后缀，-ize 表示'使成为'。比如 modernize = 使现代化！",
-        "combo": ""
+        "combo": "",
+        "cn": "道歉"
     },
     {
         "word": "appear",
@@ -388,7 +426,8 @@ const viktorData = [
         "prefix": "ap-是ad-在p前同化",
         "root": "pear来自parere'出现'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "出现"
     },
     {
         "word": "appearance",
@@ -398,7 +437,8 @@ const viktorData = [
         "prefix": "ap-是ad-同化",
         "root": "pear来自parere'出现'",
         "suffix": "ance 是名词后缀，-ance 是个'状态记录仪'，把动作变成状态名词。比如 importance = 重要的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "外貌"
     },
     {
         "word": "appreciate",
@@ -408,7 +448,8 @@ const viktorData = [
         "prefix": "ap-是ad-同化",
         "root": "preci来自pretium'价值'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "感激"
     },
     {
         "word": "argue",
@@ -418,7 +459,8 @@ const viktorData = [
         "prefix": "",
         "root": "argu来自arguere'指责'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "争论"
     },
     {
         "word": "arrange",
@@ -428,7 +470,8 @@ const viktorData = [
         "prefix": "ar-是ad-在r前同化",
         "root": "range来自rang'行列'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "安排"
     },
     {
         "word": "article",
@@ -438,7 +481,8 @@ const viktorData = [
         "prefix": "",
         "root": "art来自artis'技艺/条款'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "文章"
     },
     {
         "word": "artist",
@@ -448,7 +492,8 @@ const viktorData = [
         "prefix": "",
         "root": "art来自ars'艺术'",
         "suffix": "ist 是名词后缀，-ist 表示'从事……的人'。比如 scientist = 科学家！",
-        "combo": ""
+        "combo": "",
+        "cn": "艺术家"
     },
     {
         "word": "ashamed",
@@ -458,7 +503,8 @@ const viktorData = [
         "prefix": "a-表状态",
         "root": "sham来自scamu'羞耻'",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "羞耻的"
     },
     {
         "word": "asleep",
@@ -468,7 +514,8 @@ const viktorData = [
         "prefix": "a-表状态",
         "root": "sleep来自古英语'睡'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "入睡"
     },
     {
         "word": "astronaut",
@@ -478,7 +525,8 @@ const viktorData = [
         "prefix": "astro-来自astron'星星'",
         "root": "naut来自naubes'船员'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "宇航员"
     },
     {
         "word": "athlete",
@@ -488,7 +536,8 @@ const viktorData = [
         "prefix": "",
         "root": "athlet来自希腊语'竞技者'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "运动员"
     },
     {
         "word": "attention",
@@ -498,7 +547,8 @@ const viktorData = [
         "prefix": "at-是ad-在t前同化",
         "root": "tent来自tendere'伸展'",
         "suffix": "ion 是名词后缀，-ion 来自拉丁语 -io，是最常见的名词后缀之一。比如 action = 行动！",
-        "combo": ""
+        "combo": "",
+        "cn": "注意"
     },
     {
         "word": "attitude",
@@ -508,7 +558,8 @@ const viktorData = [
         "prefix": "at-是ad-同化",
         "root": "tit来自aptitudo'倾向'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "态度"
     },
     {
         "word": "attract",
@@ -518,7 +569,8 @@ const viktorData = [
         "prefix": "at-是ad-在t前同化",
         "root": "tract来自trahere'拉'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "吸引"
     },
     {
         "word": "attractive",
@@ -528,7 +580,8 @@ const viktorData = [
         "prefix": "at-是ad-同化",
         "root": "tract来自trahere'拉'",
         "suffix": "ive 是形容词后缀，-ive 是个'形容词魔法师'，一加在词根后面，单词立刻变成形容词，表示'具有……性质的'。比如 active = 活跃的，creative = 有创造力的！",
-        "combo": ""
+        "combo": "",
+        "cn": "有吸引力的"
     },
     {
         "word": "avoid",
@@ -538,7 +591,8 @@ const viktorData = [
         "prefix": "a-来自es-'离开'",
         "root": "void来自vuide'空'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "避免"
     },
     {
         "word": "available",
@@ -548,7 +602,8 @@ const viktorData = [
         "prefix": "a-来自ad-",
         "root": "vail来自valere'价值'",
         "suffix": "able 是形容词后缀，-able 是个'能力认证官'，加在词根后面表示'能够被……的'。比如 readable = 能被读的！",
-        "combo": ""
+        "combo": "",
+        "cn": "可以得到的"
     },
     {
         "word": "average",
@@ -558,7 +613,8 @@ const viktorData = [
         "prefix": "",
         "root": "aver来自阿拉伯语'损坏货物'",
         "suffix": "age 是名词后缀，-age 像个小仓库，把东西装进去变成名词。比如 storage = 储存的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "平均的"
     },
     {
         "word": "awake",
@@ -568,7 +624,8 @@ const viktorData = [
         "prefix": "a-表状态",
         "root": "wake来自古英语'醒'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "醒着的"
     },
     {
         "word": "awful",
@@ -578,7 +635,8 @@ const viktorData = [
         "prefix": "",
         "root": "awe来自古挪威语'敬畏'",
         "suffix": "ful 是形容词后缀，-ful 像只装满东西的杯子，表示'充满……的'。比如 beautiful = 充满美的 = 美丽的！",
-        "combo": ""
+        "combo": "",
+        "cn": "糟糕的"
     },
     {
         "word": "background",
@@ -588,7 +646,8 @@ const viktorData = [
         "prefix": "",
         "root": "back+ground",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "背景"
     },
     {
         "word": "balance",
@@ -598,7 +657,8 @@ const viktorData = [
         "prefix": "",
         "root": "bal来自bilanx'天平'",
         "suffix": "ance 是名词后缀，-ance 是个'状态记录仪'，把动作变成状态名词。比如 importance = 重要的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "平衡"
     },
     {
         "word": "awfully",
@@ -608,7 +668,8 @@ const viktorData = [
         "prefix": "",
         "root": "awe来自古挪威语'敬畏'",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "糟糕地"
     },
     {
         "word": "basis",
@@ -618,7 +679,8 @@ const viktorData = [
         "prefix": "",
         "root": "bas来自basis'基础'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "基础"
     },
     {
         "word": "basic",
@@ -628,7 +690,8 @@ const viktorData = [
         "prefix": "",
         "root": "bas来自basis'基础'",
         "suffix": "ic 是形容词后缀，-ic 来自希腊语 -ikos，像件希腊长袍，穿上就是形容词。比如 historic = 历史的！",
-        "combo": ""
+        "combo": "",
+        "cn": "基本的"
     },
     {
         "word": "bear",
@@ -638,7 +701,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语beran'携带/忍受'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "忍受；熊"
     },
     {
         "word": "beat",
@@ -648,7 +712,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语beatan'击打'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "打败；节拍"
     },
     {
         "word": "beautiful",
@@ -658,7 +723,8 @@ const viktorData = [
         "prefix": "",
         "root": "beauty来自biauté'美'",
         "suffix": "ful 是形容词后缀，-ful 像只装满东西的杯子，表示'充满……的'。比如 beautiful = 充满美的 = 美丽的！",
-        "combo": ""
+        "combo": "",
+        "cn": "美丽的"
     },
     {
         "word": "beauty",
@@ -668,7 +734,8 @@ const viktorData = [
         "prefix": "",
         "root": "beaut来自bel'美丽'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "美好的人/事；美丽"
     },
     {
         "word": "behave",
@@ -678,7 +745,8 @@ const viktorData = [
         "prefix": "be-表'使'",
         "root": "have来自habban'持有'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "表现"
     },
     {
         "word": "behaviour",
@@ -688,7 +756,8 @@ const viktorData = [
         "prefix": "be-表'使'",
         "root": "hav来自habban'持有'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "行为"
     },
     {
         "word": "belief",
@@ -698,7 +767,8 @@ const viktorData = [
         "prefix": "be-表强调",
         "root": "lief来自geleafan'相信'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "信仰"
     },
     {
         "word": "believe",
@@ -708,7 +778,8 @@ const viktorData = [
         "prefix": "be-表强调",
         "root": "lieve来自geliefan'相信'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "相信"
     },
     {
         "word": "belong",
@@ -718,7 +789,8 @@ const viktorData = [
         "prefix": "be-表强调",
         "root": "long与'伴随'有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "属于"
     },
     {
         "word": "benefit",
@@ -728,7 +800,8 @@ const viktorData = [
         "prefix": "bene-表'好'",
         "root": "fit来自facere'做'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "使受益；益处"
     },
     {
         "word": "bell",
@@ -738,7 +811,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语belle，拟声词",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "铃"
     },
     {
         "word": "beyond",
@@ -748,7 +822,8 @@ const viktorData = [
         "prefix": "be-表'在'",
         "root": "yond来自geond'那边'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "超出"
     },
     {
         "word": "bill",
@@ -758,7 +833,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自拉丁语bulla'封印'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "账单"
     },
     {
         "word": "biology",
@@ -768,7 +844,8 @@ const viktorData = [
         "prefix": "bio-来自bios'生命'",
         "root": "logy来自logos'学问'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "生物学"
     },
     {
         "word": "bin",
@@ -778,7 +855,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语binne'箱子'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "垃圾桶"
     },
     {
         "word": "birth",
@@ -788,7 +866,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语berð，与bear有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "出生"
     },
     {
         "word": "birthday",
@@ -798,7 +877,8 @@ const viktorData = [
         "prefix": "",
         "root": "birth+day",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "生日"
     },
     {
         "word": "blackboard",
@@ -808,7 +888,8 @@ const viktorData = [
         "prefix": "",
         "root": "black(黑)+board(板)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "黑板"
     },
     {
         "word": "blog",
@@ -818,7 +899,8 @@ const viktorData = [
         "prefix": "",
         "root": "weblog缩写，web(网)+log(日志)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "博客"
     },
     {
         "word": "blind",
@@ -828,7 +910,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语blind'盲'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "失明的"
     },
     {
         "word": "blame",
@@ -838,7 +921,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自blasmer'责备'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "责怪"
     },
     {
         "word": "board",
@@ -848,7 +932,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语bord'木板'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "木板"
     },
     {
         "word": "boil",
@@ -858,7 +943,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自拉丁语bullire'冒泡'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "煮沸"
     },
     {
         "word": "bookstore",
@@ -868,7 +954,8 @@ const viktorData = [
         "prefix": "",
         "root": "book+store",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "书店"
     },
     {
         "word": "boring",
@@ -878,7 +965,8 @@ const viktorData = [
         "prefix": "",
         "root": "bor来自borian'钻孔'引申",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "无聊的"
     },
     {
         "word": "borrow",
@@ -888,7 +976,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自borgian'借'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "借"
     },
     {
         "word": "bottom",
@@ -898,7 +987,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语botm'底部'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "底部"
     },
     {
         "word": "branch",
@@ -908,7 +998,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自branche'树枝'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "分支；树枝"
     },
     {
         "word": "brave",
@@ -918,7 +1009,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自意大利语bravo'勇敢'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "勇敢的"
     },
     {
         "word": "break",
@@ -928,7 +1020,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语brecan'打破'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "打破"
     },
     {
         "word": "breathe",
@@ -938,7 +1031,8 @@ const viktorData = [
         "prefix": "",
         "root": "breath来自bræth'呼吸'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "呼吸"
     },
     {
         "word": "bright",
@@ -948,7 +1042,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语beorht'明亮'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "明亮的"
     },
     {
         "word": "brilliant",
@@ -958,7 +1053,8 @@ const viktorData = [
         "prefix": "",
         "root": "brilli来自'闪耀'",
         "suffix": "ant 是形容词/名词后缀，-ant 可以表示'做……的人'，也可以表示形容词。比如 assistant = 帮助的人 = 助手！",
-        "combo": ""
+        "combo": "",
+        "cn": "杰出的；聪明的"
     },
     {
         "word": "budget",
@@ -968,7 +1064,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自bougette'小皮袋'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "预算"
     },
     {
         "word": "building",
@@ -978,7 +1075,8 @@ const viktorData = [
         "prefix": "",
         "root": "build来自byldan'建造'",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "建筑物"
     },
     {
         "word": "bully",
@@ -988,7 +1086,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自boel'兄弟'变贬义",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "欺负；欺凌者"
     },
     {
         "word": "burst",
@@ -998,7 +1097,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语berstan'破裂'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "爆发；突然发生"
     },
     {
         "word": "business",
@@ -1008,7 +1108,8 @@ const viktorData = [
         "prefix": "",
         "root": "busi来自bisig'忙碌'",
         "suffix": "ess 是名词后缀，-ess 是个'公主标记'，表示女性。比如 actress = 女演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "商业；生意"
     },
     {
         "word": "busy",
@@ -1018,7 +1119,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语bisig'忙碌'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "忙碌的"
     },
     {
         "word": "calculate",
@@ -1028,7 +1130,8 @@ const viktorData = [
         "prefix": "",
         "root": "calcul来自calculus'小石子'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "计算"
     },
     {
         "word": "calendar",
@@ -1038,7 +1141,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自calendarium'账本'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "日历"
     },
     {
         "word": "calm",
@@ -1048,7 +1152,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自希腊语kauma'热'后指宁静",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "平静的"
     },
     {
         "word": "cancel",
@@ -1058,7 +1163,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自cancellare'画格子'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "取消"
     },
     {
         "word": "capital",
@@ -1068,7 +1174,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自caput'头'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "首都；资本"
     },
     {
         "word": "careful",
@@ -1078,7 +1185,8 @@ const viktorData = [
         "prefix": "",
         "root": "care+ful",
         "suffix": "ful 是形容词后缀，-ful 像只装满东西的杯子，表示'充满……的'。比如 beautiful = 充满美的 = 美丽的！",
-        "combo": ""
+        "combo": "",
+        "cn": "小心的"
     },
     {
         "word": "cancer",
@@ -1088,7 +1196,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自cancer'螃蟹'(肿瘤像蟹脚)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "癌症"
     },
     {
         "word": "caring",
@@ -1098,7 +1207,8 @@ const viktorData = [
         "prefix": "",
         "root": "care+ing",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "关心他人的"
     },
     {
         "word": "career",
@@ -1108,7 +1218,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自carrière'跑道'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "职业；事业"
     },
     {
         "word": "careless",
@@ -1118,7 +1229,8 @@ const viktorData = [
         "prefix": "",
         "root": "care+less",
         "suffix": "ess 是名词后缀，-ess 是个'公主标记'，表示女性。比如 actress = 女演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "粗心的"
     },
     {
         "word": "case",
@@ -1128,7 +1240,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自casus'发生的事'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "情况；案例"
     },
     {
         "word": "cash",
@@ -1138,7 +1251,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自capsa'盒子'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "现金"
     },
     {
         "word": "celebrate",
@@ -1148,7 +1262,8 @@ const viktorData = [
         "prefix": "",
         "root": "celebr来自celebrare'庆祝'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "庆祝"
     },
     {
         "word": "central",
@@ -1158,7 +1273,8 @@ const viktorData = [
         "prefix": "",
         "root": "centr来自centrum'中心'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "中心的"
     },
     {
         "word": "century",
@@ -1168,7 +1284,8 @@ const viktorData = [
         "prefix": "",
         "root": "centur来自centum'一百'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "世纪"
     },
     {
         "word": "ceremony",
@@ -1178,7 +1295,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自caerimonia'仪式'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "仪式"
     },
     {
         "word": "challenge",
@@ -1188,7 +1306,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自chalonger'质疑'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "挑战"
     },
     {
         "word": "champion",
@@ -1198,7 +1317,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自campio'战场斗士'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "冠军"
     },
     {
         "word": "chance",
@@ -1208,7 +1328,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自cheance'发生的事'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "机会"
     },
     {
         "word": "character",
@@ -1218,7 +1339,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自kharakter'刻印'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "性格；角色；汉字"
     },
     {
         "word": "characteristic",
@@ -1228,7 +1350,8 @@ const viktorData = [
         "prefix": "",
         "root": "character+istic",
         "suffix": "ic 是形容词后缀，-ic 来自希腊语 -ikos，像件希腊长袍，穿上就是形容词。比如 historic = 历史的！",
-        "combo": ""
+        "combo": "",
+        "cn": "特征"
     },
     {
         "word": "chemistry",
@@ -1238,7 +1361,8 @@ const viktorData = [
         "prefix": "",
         "root": "chem来自khemeia'炼金术'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "化学"
     },
     {
         "word": "choice",
@@ -1248,7 +1372,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自chois'选择'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "选择"
     },
     {
         "word": "citizen",
@@ -1258,7 +1383,8 @@ const viktorData = [
         "prefix": "",
         "root": "cit来自cite'城市'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "公民"
     },
     {
         "word": "clap",
@@ -1268,7 +1394,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自clæppan'拍击'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "鼓掌"
     },
     {
         "word": "classic",
@@ -1278,7 +1405,8 @@ const viktorData = [
         "prefix": "",
         "root": "class+ic",
         "suffix": "ic 是形容词后缀，-ic 来自希腊语 -ikos，像件希腊长袍，穿上就是形容词。比如 historic = 历史的！",
-        "combo": ""
+        "combo": "",
+        "cn": "经典的"
     },
     {
         "word": "clear",
@@ -1288,7 +1416,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自clarus'明亮'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "清楚的"
     },
     {
         "word": "clever",
@@ -1298,7 +1427,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自cliver'灵巧'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "聪明的"
     },
     {
         "word": "climate",
@@ -1308,7 +1438,8 @@ const viktorData = [
         "prefix": "",
         "root": "clim来自klima'倾斜/纬度'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "气候"
     },
     {
         "word": "clearly",
@@ -1318,7 +1449,8 @@ const viktorData = [
         "prefix": "",
         "root": "clear来自拉丁语clarus'明亮/清楚'",
         "suffix": "-ly是副词后缀，表示'……地'。像给形容词加个小尾巴，clear立刻变成'清楚地'！",
-        "combo": ""
+        "combo": "",
+        "cn": "清楚地"
     },
     {
         "word": "click",
@@ -1328,7 +1460,8 @@ const viktorData = [
         "prefix": "",
         "root": "拟声词",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "点击"
     },
     {
         "word": "cinema",
@@ -1338,7 +1471,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自kinema'运动'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "电影院"
     },
     {
         "word": "cleaner",
@@ -1348,7 +1482,8 @@ const viktorData = [
         "prefix": "",
         "root": "clean+er",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "清洁工"
     },
     {
         "word": "chore",
@@ -1358,7 +1493,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自chare'零星活'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "日常琐事"
     },
     {
         "word": "circle",
@@ -1368,7 +1504,8 @@ const viktorData = [
         "prefix": "",
         "root": "circ来自circulus'圆'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "圆形；圆圈"
     },
     {
         "word": "cloudy",
@@ -1378,7 +1515,8 @@ const viktorData = [
         "prefix": "",
         "root": "cloud+y",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "多云的"
     },
     {
         "word": "coach",
@@ -1388,7 +1526,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自kocsi'马车'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "辅导教师；教练"
     },
     {
         "word": "coast",
@@ -1398,7 +1537,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自costa'肋骨/边缘'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "海岸"
     },
     {
         "word": "collect",
@@ -1408,7 +1548,8 @@ const viktorData = [
         "prefix": "col-是com-在l前同化",
         "root": "lect来自legere'收集'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "收集"
     },
     {
         "word": "college",
@@ -1418,7 +1559,8 @@ const viktorData = [
         "prefix": "col-是com-变体",
         "root": "leg来自legere'读'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "大学"
     },
     {
         "word": "comfortable",
@@ -1428,7 +1570,8 @@ const viktorData = [
         "prefix": "com-表加强",
         "root": "fort来自fortis'强壮'",
         "suffix": "able 是形容词后缀，-able 是个'能力认证官'，加在词根后面表示'能够被……的'。比如 readable = 能被读的！",
-        "combo": ""
+        "combo": "",
+        "cn": "舒适的"
     },
     {
         "word": "common",
@@ -1438,7 +1581,8 @@ const viktorData = [
         "prefix": "com-表共同",
         "root": "mon来自munis'公共'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "普遍的；普通的"
     },
     {
         "word": "communicate",
@@ -1448,7 +1592,8 @@ const viktorData = [
         "prefix": "com-表共同",
         "root": "mun来自munus'公共'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "交流"
     },
     {
         "word": "compare",
@@ -1458,7 +1603,8 @@ const viktorData = [
         "prefix": "com-表共同",
         "root": "par来自par'相等'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "对比"
     },
     {
         "word": "compete",
@@ -1468,7 +1614,8 @@ const viktorData = [
         "prefix": "com-表共同",
         "root": "pet来自petere'追求'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "竞争"
     },
     {
         "word": "complete",
@@ -1478,7 +1625,8 @@ const viktorData = [
         "prefix": "com-表加强",
         "root": "ple来自plere'填满'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "完成；完整的"
     },
     {
         "word": "concentrate",
@@ -1488,7 +1636,8 @@ const viktorData = [
         "prefix": "con-表共同",
         "root": "centr来自centrum'中心'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "专注"
     },
     {
         "word": "control",
@@ -1498,7 +1647,8 @@ const viktorData = [
         "prefix": "contra-表反对",
         "root": "rol与'名单'有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "控制"
     },
     {
         "word": "convenient",
@@ -1508,7 +1658,8 @@ const viktorData = [
         "prefix": "con-表共同",
         "root": "ven来自venire'来'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "方便的"
     },
     {
         "word": "conversation",
@@ -1518,7 +1669,8 @@ const viktorData = [
         "prefix": "con-表共同",
         "root": "vers来自vertere'转'",
         "suffix": "ation 是名词后缀，-ate + -ion 组合而成，表示动作或结果。比如 education = 教育这件事！",
-        "combo": ""
+        "combo": "",
+        "cn": "谈话"
     },
     {
         "word": "cooperate",
@@ -1528,7 +1680,8 @@ const viktorData = [
         "prefix": "co-表共同",
         "root": "oper来自opera'工作'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "合作"
     },
     {
         "word": "courage",
@@ -1538,7 +1691,8 @@ const viktorData = [
         "prefix": "",
         "root": "cour来自cor'心'",
         "suffix": "age 是名词后缀，-age 像个小仓库，把东西装进去变成名词。比如 storage = 储存的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "勇气"
     },
     {
         "word": "cover",
@@ -1548,7 +1702,8 @@ const viktorData = [
         "prefix": "co-表完全",
         "root": "ver与operire'覆盖'有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "覆盖；封面"
     },
     {
         "word": "competition",
@@ -1558,7 +1713,8 @@ const viktorData = [
         "prefix": "com-表共同",
         "root": "pet来自petere'追求'",
         "suffix": "ion 是名词后缀，-ion 来自拉丁语 -io，是最常见的名词后缀之一。比如 action = 行动！",
-        "combo": ""
+        "combo": "",
+        "cn": "竞赛"
     },
     {
         "word": "continue",
@@ -1568,7 +1724,8 @@ const viktorData = [
         "prefix": "con-表共同",
         "root": "tin来自tenere'保持'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "继续"
     },
     {
         "word": "cook",
@@ -1578,7 +1735,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自cocus'厨师'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "厨师；烹饪"
     },
     {
         "word": "cool",
@@ -1588,7 +1746,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自col'凉爽'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "凉爽的"
     },
     {
         "word": "contain",
@@ -1598,7 +1757,8 @@ const viktorData = [
         "prefix": "con-表一起",
         "root": "tain来自tenere'拿住'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "包含"
     },
     {
         "word": "corner",
@@ -1608,7 +1768,8 @@ const viktorData = [
         "prefix": "",
         "root": "corn来自cornu'角'",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "角落"
     },
     {
         "word": "correct",
@@ -1618,7 +1779,8 @@ const viktorData = [
         "prefix": "cor-是com-在r前同化",
         "root": "rect来自rectus'直'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "正确的；改正"
     },
     {
         "word": "creature",
@@ -1628,7 +1790,8 @@ const viktorData = [
         "prefix": "",
         "root": "cre来自creare'创造'",
         "suffix": "ture 是名词后缀，-ture 表示结果。比如 picture = 画出来的东西 = 图画！",
-        "combo": ""
+        "combo": "",
+        "cn": "生物"
     },
     {
         "word": "criticize",
@@ -1638,7 +1801,8 @@ const viktorData = [
         "prefix": "",
         "root": "crit来自kritikos'判断'",
         "suffix": "ize 是动词后缀，-ize 表示'使成为'。比如 modernize = 使现代化！",
-        "combo": ""
+        "combo": "",
+        "cn": "批评"
     },
     {
         "word": "crowded",
@@ -1648,7 +1812,8 @@ const viktorData = [
         "prefix": "",
         "root": "crowd+ed",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "拥挤的"
     },
     {
         "word": "cruel",
@@ -1658,7 +1823,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自crudelis'粗糙'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "残忍的"
     },
     {
         "word": "custom",
@@ -1668,7 +1834,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自consuetudo'习惯'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "习俗"
     },
     {
         "word": "dangerous",
@@ -1678,7 +1845,8 @@ const viktorData = [
         "prefix": "",
         "root": "danger来自dominium'统治权'",
         "suffix": "ous 是形容词后缀，-ous 来自拉丁语 -osus，是形容词外套。比如 dangerous = 危险的！",
-        "combo": ""
+        "combo": "",
+        "cn": "危险的"
     },
     {
         "word": "decide",
@@ -1688,7 +1856,8 @@ const viktorData = [
         "prefix": "de-表向下",
         "root": "cid来自caedere'切'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "决定"
     },
     {
         "word": "deeply",
@@ -1698,7 +1867,8 @@ const viktorData = [
         "prefix": "",
         "root": "deep+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "深深地"
     },
     {
         "word": "crazy",
@@ -1708,7 +1878,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自crasen'发狂'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "疯狂的"
     },
     {
         "word": "curious",
@@ -1718,7 +1889,8 @@ const viktorData = [
         "prefix": "",
         "root": "cur来自cura'关心'",
         "suffix": "ous 是形容词后缀，-ous 来自拉丁语 -osus，是形容词外套。比如 dangerous = 危险的！",
-        "combo": ""
+        "combo": "",
+        "cn": "好奇的"
     },
     {
         "word": "cure",
@@ -1728,7 +1900,8 @@ const viktorData = [
         "prefix": "",
         "root": "cur来自cura'照料'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "治疗；治愈"
     },
     {
         "word": "damage",
@@ -1738,7 +1911,8 @@ const viktorData = [
         "prefix": "",
         "root": "dam来自damnum'损失'",
         "suffix": "age 是名词后缀，-age 像个小仓库，把东西装进去变成名词。比如 storage = 储存的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "损害"
     },
     {
         "word": "dark",
@@ -1748,7 +1922,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自deorc'黑暗'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "黑暗的"
     },
     {
         "word": "date",
@@ -1758,7 +1933,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自data'写明的日期'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "日期；约会"
     },
     {
         "word": "deaf",
@@ -1768,7 +1944,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自deaf'聋'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "聋的"
     },
     {
         "word": "death",
@@ -1778,7 +1955,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语deað'死亡'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "死亡"
     },
     {
         "word": "dentist",
@@ -1788,7 +1966,8 @@ const viktorData = [
         "prefix": "",
         "root": "dent来自dens'牙齿'",
         "suffix": "ist 是名词后缀，-ist 表示'从事……的人'。比如 scientist = 科学家！",
-        "combo": ""
+        "combo": "",
+        "cn": "牙医"
     },
     {
         "word": "describe",
@@ -1798,7 +1977,8 @@ const viktorData = [
         "prefix": "de-表向下",
         "root": "scrib来自scribere'写'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "描述"
     },
     {
         "word": "design",
@@ -1808,7 +1988,8 @@ const viktorData = [
         "prefix": "de-表完全",
         "root": "sign来自signum'标记'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "设计"
     },
     {
         "word": "determined",
@@ -1818,7 +1999,8 @@ const viktorData = [
         "prefix": "de-表完全",
         "root": "termin来自terminus'界限'",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "坚决的；有决心的"
     },
     {
         "word": "development",
@@ -1828,7 +2010,8 @@ const viktorData = [
         "prefix": "de-表展开",
         "root": "velop来自voloper'包裹'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "发展"
     },
     {
         "word": "diet",
@@ -1838,7 +2021,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自diaita'生活方式'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "饮食"
     },
     {
         "word": "difference",
@@ -1848,7 +2032,8 @@ const viktorData = [
         "prefix": "dif-表分开(dis-变体)",
         "root": "fer来自ferre'携带'",
         "suffix": "ence 是名词后缀，-ence 和 -ance 是姐妹，都表示名词性质。比如 difference = 差异！",
-        "combo": ""
+        "combo": "",
+        "cn": "差异"
     },
     {
         "word": "difficult",
@@ -1858,7 +2043,8 @@ const viktorData = [
         "prefix": "dif-表不",
         "root": "fic来自facere'做'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "困难的"
     },
     {
         "word": "direct",
@@ -1868,7 +2054,8 @@ const viktorData = [
         "prefix": "di-是de-变体",
         "root": "rect来自rectus'直'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "直接的；指导"
     },
     {
         "word": "digital",
@@ -1878,7 +2065,8 @@ const viktorData = [
         "prefix": "",
         "root": "digit来自digitus'手指'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "数字的"
     },
     {
         "word": "disabled",
@@ -1888,7 +2076,8 @@ const viktorData = [
         "prefix": "dis-表否定",
         "root": "abled能够",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "残疾的"
     },
     {
         "word": "disadvantage",
@@ -1898,7 +2087,8 @@ const viktorData = [
         "prefix": "dis-表相反",
         "root": "advantage优势",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "劣势"
     },
     {
         "word": "disappointed",
@@ -1908,7 +2098,8 @@ const viktorData = [
         "prefix": "dis-表否定",
         "root": "appoint指定",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "失望的"
     },
     {
         "word": "discussion",
@@ -1918,7 +2109,8 @@ const viktorData = [
         "prefix": "dis-表分开",
         "root": "cuss来自quatere'打击'",
         "suffix": "ion 是名词后缀，-ion 来自拉丁语 -io，是最常见的名词后缀之一。比如 action = 行动！",
-        "combo": ""
+        "combo": "",
+        "cn": "讨论"
     },
     {
         "word": "dislike",
@@ -1928,7 +2120,8 @@ const viktorData = [
         "prefix": "dis-表否定",
         "root": "like喜欢",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "不喜欢"
     },
     {
         "word": "display",
@@ -1938,7 +2131,8 @@ const viktorData = [
         "prefix": "dis-表展开",
         "root": "play来自plicare'折叠'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "展示"
     },
     {
         "word": "divide",
@@ -1948,7 +2142,8 @@ const viktorData = [
         "prefix": "di-表分开",
         "root": "vid来自videre'看'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "分开"
     },
     {
         "word": "documentary",
@@ -1958,7 +2153,8 @@ const viktorData = [
         "prefix": "",
         "root": "docu来自docere'教'",
         "suffix": "ary 是形容词/名词后缀，-ary 像个小房子，表示'与……有关的'或场所。比如 library = 放书的地方 = 图书馆！",
-        "combo": ""
+        "combo": "",
+        "cn": "纪录片"
     },
     {
         "word": "donate",
@@ -1968,7 +2164,8 @@ const viktorData = [
         "prefix": "",
         "root": "don来自donare'给'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "捐赠"
     },
     {
         "word": "double",
@@ -1978,7 +2175,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自duplus'两倍'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "双倍的；两倍；使加倍"
     },
     {
         "word": "doubt",
@@ -1988,7 +2186,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自dubitare'犹豫'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "怀疑"
     },
     {
         "word": "download",
@@ -1998,7 +2197,8 @@ const viktorData = [
         "prefix": "",
         "root": "down+load",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "下载"
     },
     {
         "word": "drought",
@@ -2008,7 +2208,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自古英语drugoth'干燥'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "干旱"
     },
     {
         "word": "due",
@@ -2018,7 +2219,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自deu'欠'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "到期的；应得的"
     },
     {
         "word": "duty",
@@ -2028,7 +2230,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自debere'欠'",
         "suffix": "ty 是名词后缀，-ty 是抽象名词后缀。比如 safety = 安全！",
-        "combo": ""
+        "combo": "",
+        "cn": "责任"
     },
     {
         "word": "dull",
@@ -2038,7 +2241,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自dol'愚蠢'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "枯燥的；迟钝的"
     },
     {
         "word": "during",
@@ -2048,7 +2252,8 @@ const viktorData = [
         "prefix": "",
         "root": "dur来自durare'持续'",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "在……期间"
     },
     {
         "word": "easy-going",
@@ -2058,7 +2263,8 @@ const viktorData = [
         "prefix": "",
         "root": "easy(容易的)+going(进行)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "随和的；容易相处的"
     },
     {
         "word": "editor",
@@ -2068,7 +2274,8 @@ const viktorData = [
         "prefix": "e-是ex-简写",
         "root": "dit来自dare'给'",
         "suffix": "or 是名词后缀，-or 和 -er 是兄弟，都表示'做……的人'。比如 actor = 演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "编辑；编者"
     },
     {
         "word": "educate",
@@ -2078,7 +2285,8 @@ const viktorData = [
         "prefix": "e-是ex-简写",
         "root": "duc来自ducere'引导'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "教育；培养；训练"
     },
     {
         "word": "education",
@@ -2088,7 +2296,8 @@ const viktorData = [
         "prefix": "e-是ex-简写",
         "root": "duc来自ducere'引导'",
         "suffix": "ation 是名词后缀，-ate + -ion 组合而成，表示动作或结果。比如 education = 教育这件事！",
-        "combo": ""
+        "combo": "",
+        "cn": "教育"
     },
     {
         "word": "elder",
@@ -2098,7 +2307,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自eald'老'",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "年龄较大的；长者"
     },
     {
         "word": "electricity",
@@ -2108,7 +2318,8 @@ const viktorData = [
         "prefix": "",
         "root": "electr来自elektron'琥珀'(摩擦生电)",
         "suffix": "ity 是名词后缀，-ity 是抽象名词制造机！比如 reality = 现实！",
-        "combo": ""
+        "combo": "",
+        "cn": "电；电流"
     },
     {
         "word": "embarrassed",
@@ -2118,7 +2329,8 @@ const viktorData = [
         "prefix": "em-表进入",
         "root": "barr来自barra'障碍'",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "尴尬的；窘迫的"
     },
     {
         "word": "emergency",
@@ -2128,7 +2340,8 @@ const viktorData = [
         "prefix": "e-是ex-简写",
         "root": "merg来自mergere'沉'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "紧急情况；突发事件"
     },
     {
         "word": "encourage",
@@ -2138,7 +2351,8 @@ const viktorData = [
         "prefix": "en-表使",
         "root": "cour来自cor'心'",
         "suffix": "age 是名词后缀，-age 像个小仓库，把东西装进去变成名词。比如 storage = 储存的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "鼓励；激励"
     },
     {
         "word": "endanger",
@@ -2148,7 +2362,8 @@ const viktorData = [
         "prefix": "en-表使",
         "root": "danger危险",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "危及；使遭受危险"
     },
     {
         "word": "enemy",
@@ -2158,7 +2373,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自inimicus'非朋友'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "敌人；敌军"
     },
     {
         "word": "energetic",
@@ -2168,7 +2384,8 @@ const viktorData = [
         "prefix": "",
         "root": "energ来自energeia'能量'",
         "suffix": "ic 是形容词后缀，-ic 来自希腊语 -ikos，像件希腊长袍，穿上就是形容词。比如 historic = 历史的！",
-        "combo": ""
+        "combo": "",
+        "cn": "精力充沛的；充满活力的"
     },
     {
         "word": "energy",
@@ -2178,7 +2395,8 @@ const viktorData = [
         "prefix": "en-表在内",
         "root": "erg来自ergon'工作'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "能量；精力"
     },
     {
         "word": "emotion",
@@ -2188,7 +2406,8 @@ const viktorData = [
         "prefix": "e-是ex-简写",
         "root": "mot来自movere'移动'",
         "suffix": "ion 是名词后缀，-ion 来自拉丁语 -io，是最常见的名词后缀之一。比如 action = 行动！",
-        "combo": ""
+        "combo": "",
+        "cn": "情感；情绪"
     },
     {
         "word": "emperor",
@@ -2198,7 +2417,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自imperator'统治者'",
         "suffix": "or 是名词后缀，-or 和 -er 是兄弟，都表示'做……的人'。比如 actor = 演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "皇帝"
     },
     {
         "word": "empty",
@@ -2208,7 +2428,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自æmettig'空闲'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "空的；倒空"
     },
     {
         "word": "engineer",
@@ -2218,7 +2439,8 @@ const viktorData = [
         "prefix": "",
         "root": "engine来自ingenium'机械'",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "工程师"
     },
     {
         "word": "enough",
@@ -2228,7 +2450,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自genog'足够'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "足够的；足够地"
     },
     {
         "word": "enter",
@@ -2238,7 +2461,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自intrare'进入'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "进入；参加"
     },
     {
         "word": "entertainment",
@@ -2248,7 +2472,8 @@ const viktorData = [
         "prefix": "enter-是inter-变体",
         "root": "tain来自tenere'保持'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "娱乐；消遣"
     },
     {
         "word": "equipment",
@@ -2258,7 +2483,8 @@ const viktorData = [
         "prefix": "e-表使",
         "root": "quip与装备有关",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "设备；装备"
     },
     {
         "word": "especially",
@@ -2268,7 +2494,8 @@ const viktorData = [
         "prefix": "e-是ex-简写",
         "root": "special特别",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "特别；尤其"
     },
     {
         "word": "event",
@@ -2278,7 +2505,8 @@ const viktorData = [
         "prefix": "e-是ex-简写",
         "root": "vent来自venire'来'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "事件；大事"
     },
     {
         "word": "exact",
@@ -2288,7 +2516,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "act来自agere'做'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "精确的；准确的"
     },
     {
         "word": "examine",
@@ -2298,7 +2527,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "amin与'检查'有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "检查；考试"
     },
     {
         "word": "excellent",
@@ -2308,7 +2538,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "cell来自cellere'升起'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "优秀的；卓越的"
     },
     {
         "word": "exchange",
@@ -2318,7 +2549,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "change换",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "交换；交流"
     },
     {
         "word": "excite",
@@ -2328,7 +2560,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "cit来自ciere'激起'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "使兴奋；使激动"
     },
     {
         "word": "exciting",
@@ -2338,7 +2571,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "cit来自ciere'激起'",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "令人兴奋的"
     },
     {
         "word": "excuse",
@@ -2348,7 +2582,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "cuse来自causa'原因'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "原谅；借口"
     },
     {
         "word": "experience",
@@ -2358,7 +2593,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "peri来自periri'尝试'",
         "suffix": "ence 是名词后缀，-ence 和 -ance 是姐妹，都表示名词性质。比如 difference = 差异！",
-        "combo": ""
+        "combo": "",
+        "cn": "经验；经历"
     },
     {
         "word": "exist",
@@ -2368,7 +2604,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "ist来自stare'站立'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "存在"
     },
     {
         "word": "experiment",
@@ -2378,7 +2615,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "per来自periri'尝试'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "实验；做实验"
     },
     {
         "word": "explain",
@@ -2388,7 +2626,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "plain来自planus'清楚'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "解释；说明"
     },
     {
         "word": "explore",
@@ -2398,7 +2637,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "plor来自plorare'喊'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "探索；探险"
     },
     {
         "word": "express",
@@ -2408,7 +2648,8 @@ const viktorData = [
         "prefix": "ex-表向外",
         "root": "press来自premere'压'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "表达；快递"
     },
     {
         "word": "extreme",
@@ -2418,7 +2659,8 @@ const viktorData = [
         "prefix": "",
         "root": "extr来自extremus'最外'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "极端的；极端"
     },
     {
         "word": "eyesight",
@@ -2428,7 +2670,8 @@ const viktorData = [
         "prefix": "",
         "root": "eye+sight",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "视力"
     },
     {
         "word": "facial",
@@ -2438,7 +2681,8 @@ const viktorData = [
         "prefix": "",
         "root": "fac来自facies'脸'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "面部的；面部护理"
     },
     {
         "word": "fail",
@@ -2448,7 +2692,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自faillir'使人失望'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "失败；不及格"
     },
     {
         "word": "fair",
@@ -2458,7 +2703,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自fæger'美丽/公平'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "公平的；晴朗的"
     },
     {
         "word": "familiar",
@@ -2468,7 +2714,8 @@ const viktorData = [
         "prefix": "",
         "root": "famili来自familia'家庭'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "熟悉的"
     },
     {
         "word": "famous",
@@ -2478,7 +2725,8 @@ const viktorData = [
         "prefix": "",
         "root": "fam来自fama'名声'",
         "suffix": "ous 是形容词后缀，-ous 来自拉丁语 -osus，是形容词外套。比如 dangerous = 危险的！",
-        "combo": ""
+        "combo": "",
+        "cn": "著名的"
     },
     {
         "word": "fantastic",
@@ -2488,7 +2736,8 @@ const viktorData = [
         "prefix": "",
         "root": "fantas来自phantasia'想象'",
         "suffix": "ic 是形容词后缀，-ic 来自希腊语 -ikos，像件希腊长袍，穿上就是形容词。比如 historic = 历史的！",
-        "combo": ""
+        "combo": "",
+        "cn": "极好的；奇妙的"
     },
     {
         "word": "fascinate",
@@ -2498,7 +2747,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自fascinare'施魔法'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "使着迷；使极感兴趣"
     },
     {
         "word": "fashion",
@@ -2508,7 +2758,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自façon'制作'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "时尚；时装"
     },
     {
         "word": "favourite",
@@ -2518,7 +2769,8 @@ const viktorData = [
         "prefix": "",
         "root": "favour+ite",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "最喜欢的；最喜欢的人/物"
     },
     {
         "word": "fearless",
@@ -2528,7 +2780,8 @@ const viktorData = [
         "prefix": "",
         "root": "fear+less",
         "suffix": "ess 是名词后缀，-ess 是个'公主标记'，表示女性。比如 actress = 女演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "无畏的；大胆的"
     },
     {
         "word": "feature",
@@ -2538,7 +2791,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自faicture'做'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "特征；以……为特色"
     },
     {
         "word": "feeling",
@@ -2548,7 +2802,8 @@ const viktorData = [
         "prefix": "",
         "root": "feel+ing",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "感觉；感情"
     },
     {
         "word": "female",
@@ -2558,7 +2813,8 @@ const viktorData = [
         "prefix": "",
         "root": "fem来自femina'女人'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "女性的；女性"
     },
     {
         "word": "firm",
@@ -2568,7 +2824,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自firmus'坚固'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "坚固的；公司"
     },
     {
         "word": "fit",
@@ -2578,7 +2835,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自中古英语fitten'合适'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "适合；健康的"
     },
     {
         "word": "fix",
@@ -2588,7 +2846,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自figere'固定'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "修理；安装"
     },
     {
         "word": "flight",
@@ -2598,7 +2857,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自flyht'飞'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "航班；飞行"
     },
     {
         "word": "floor",
@@ -2608,7 +2868,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自flor'地板'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "地板；楼层"
     },
     {
         "word": "flower",
@@ -2618,7 +2879,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自flour'花'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "花"
     },
     {
         "word": "flu",
@@ -2628,7 +2890,8 @@ const viktorData = [
         "prefix": "",
         "root": "influenza缩写，来自'影响'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "流感"
     },
     {
         "word": "fireman",
@@ -2638,7 +2901,8 @@ const viktorData = [
         "prefix": "",
         "root": "fire+man",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "消防员"
     },
     {
         "word": "firework",
@@ -2648,7 +2912,8 @@ const viktorData = [
         "prefix": "",
         "root": "fire+work",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "烟花；焰火"
     },
     {
         "word": "fine",
@@ -2658,7 +2923,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自finis'结束'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "好的；罚款"
     },
     {
         "word": "financial",
@@ -2668,7 +2934,8 @@ const viktorData = [
         "prefix": "",
         "root": "fin来自finis'结束/付款'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "金融的；财政的"
     },
     {
         "word": "finally",
@@ -2678,7 +2945,8 @@ const viktorData = [
         "prefix": "",
         "root": "fin来自finis'结束'",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "最后；终于"
     },
     {
         "word": "focus",
@@ -2688,7 +2956,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自focus'壁炉'(围火集中)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "集中；焦点"
     },
     {
         "word": "fond",
@@ -2698,7 +2967,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自fonned'溺爱'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "喜爱的；喜欢的"
     },
     {
         "word": "foolish",
@@ -2708,7 +2978,8 @@ const viktorData = [
         "prefix": "",
         "root": "fool+ish",
         "suffix": "ish 是形容词后缀，-ish 表示'有点……的'。比如 childish = 有点孩子气的！",
-        "combo": ""
+        "combo": "",
+        "cn": "愚蠢的；傻的"
     },
     {
         "word": "force",
@@ -2718,7 +2989,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自fortis'力量'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "力量；强迫"
     },
     {
         "word": "foreign",
@@ -2728,7 +3000,8 @@ const viktorData = [
         "prefix": "fore-表外面",
         "root": "ign来自ignotus'未知'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "外国的；外来的"
     },
     {
         "word": "forgive",
@@ -2738,7 +3011,8 @@ const viktorData = [
         "prefix": "for-表远离",
         "root": "give给",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "原谅；宽恕"
     },
     {
         "word": "formal",
@@ -2748,7 +3022,8 @@ const viktorData = [
         "prefix": "",
         "root": "form+al",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "正式的"
     },
     {
         "word": "fortunate",
@@ -2758,7 +3033,8 @@ const viktorData = [
         "prefix": "",
         "root": "fortun来自fortuna'运气'",
         "suffix": "ate 是动词/形容词后缀，-ate 像个动词开关，一加就变动作！比如 activate = 使活跃起来！",
-        "combo": ""
+        "combo": "",
+        "cn": "幸运的"
     },
     {
         "word": "freeze",
@@ -2768,7 +3044,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自freosan'结冰'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "结冰；冻住"
     },
     {
         "word": "fresh",
@@ -2778,7 +3055,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自fersc'新鲜'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "新鲜的；清新的"
     },
     {
         "word": "frightened",
@@ -2788,7 +3066,8 @@ const viktorData = [
         "prefix": "",
         "root": "fright+en+ed",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "害怕的；受惊的"
     },
     {
         "word": "frightening",
@@ -2798,7 +3077,8 @@ const viktorData = [
         "prefix": "",
         "root": "fright+en+ing",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "令人恐惧的"
     },
     {
         "word": "friendship",
@@ -2808,7 +3088,8 @@ const viktorData = [
         "prefix": "",
         "root": "friend+ship",
         "suffix": "ship 是名词后缀，-ship 表示状态或身份。比如 friendship = 朋友的状态 = 友谊！",
-        "combo": ""
+        "combo": "",
+        "cn": "友谊；友情"
     },
     {
         "word": "full",
@@ -2818,7 +3099,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自full'满'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "满的；完整的"
     },
     {
         "word": "fuel",
@@ -2828,7 +3110,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自focus'火'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "燃料；给……加燃料"
     },
     {
         "word": "funny",
@@ -2838,7 +3121,8 @@ const viktorData = [
         "prefix": "",
         "root": "fun+y",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "有趣的；滑稽的"
     },
     {
         "word": "further",
@@ -2848,7 +3132,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自furthor'更远'",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "更远的；进一步"
     },
     {
         "word": "gather",
@@ -2858,7 +3143,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自gadrian'聚集'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "聚集"
     },
     {
         "word": "generation",
@@ -2868,7 +3154,8 @@ const viktorData = [
         "prefix": "",
         "root": "gener来自generare'产生'",
         "suffix": "ation 是名词后缀，-ate + -ion 组合而成，表示动作或结果。比如 education = 教育这件事！",
-        "combo": ""
+        "combo": "",
+        "cn": "一代；产生"
     },
     {
         "word": "generous",
@@ -2878,7 +3165,8 @@ const viktorData = [
         "prefix": "",
         "root": "gener来自genus'出身'",
         "suffix": "ous 是形容词后缀，-ous 来自拉丁语 -osus，是形容词外套。比如 dangerous = 危险的！",
-        "combo": ""
+        "combo": "",
+        "cn": "慷慨的"
     },
     {
         "word": "global",
@@ -2888,7 +3176,8 @@ const viktorData = [
         "prefix": "",
         "root": "glob来自globus'球'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "全球的"
     },
     {
         "word": "golden",
@@ -2898,7 +3187,8 @@ const viktorData = [
         "prefix": "",
         "root": "gold+en",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "金色的"
     },
     {
         "word": "graceful",
@@ -2908,7 +3198,8 @@ const viktorData = [
         "prefix": "",
         "root": "grace+ful",
         "suffix": "ful 是形容词后缀，-ful 像只装满东西的杯子，表示'充满……的'。比如 beautiful = 充满美的 = 美丽的！",
-        "combo": ""
+        "combo": "",
+        "cn": "优雅的"
     },
     {
         "word": "gradual",
@@ -2918,7 +3209,8 @@ const viktorData = [
         "prefix": "",
         "root": "grad来自gradus'步'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "逐渐的"
     },
     {
         "word": "grateful",
@@ -2928,7 +3220,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自gratus'愉悦'",
         "suffix": "ful 是形容词后缀，-ful 像只装满东西的杯子，表示'充满……的'。比如 beautiful = 充满美的 = 美丽的！",
-        "combo": ""
+        "combo": "",
+        "cn": "感激的"
     },
     {
         "word": "government",
@@ -2938,7 +3231,8 @@ const viktorData = [
         "prefix": "",
         "root": "govern来自gubernare'掌舵'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "政府"
     },
     {
         "word": "greet",
@@ -2948,7 +3242,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自gretan'问候'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "问候"
     },
     {
         "word": "grow",
@@ -2958,7 +3253,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自growan'生长'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "生长"
     },
     {
         "word": "grow-up",
@@ -2968,7 +3264,8 @@ const viktorData = [
         "prefix": "",
         "root": "grow(生长)+up(向上)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "成长"
     },
     {
         "word": "guess",
@@ -2978,7 +3275,8 @@ const viktorData = [
         "prefix": "",
         "root": "可能来自gessen",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "猜测"
     },
     {
         "word": "guide",
@@ -2988,7 +3286,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自guider'引导'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "指导；导游"
     },
     {
         "word": "gym",
@@ -2998,7 +3297,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自gymnasion'裸体训练场'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "体育馆"
     },
     {
         "word": "habit",
@@ -3008,7 +3308,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自habitus'居住'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "习惯"
     },
     {
         "word": "haircut",
@@ -3018,7 +3319,8 @@ const viktorData = [
         "prefix": "",
         "root": "hair+cut",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "理发"
     },
     {
         "word": "handsome",
@@ -3028,7 +3330,8 @@ const viktorData = [
         "prefix": "",
         "root": "hand+some",
         "suffix": "some 是形容词后缀，-some 表示'令人……的'。比如 awesome = 令人敬畏的 = 很棒的！",
-        "combo": ""
+        "combo": "",
+        "cn": "英俊的"
     },
     {
         "word": "grey",
@@ -3038,7 +3341,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自græg'灰色'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "灰色的"
     },
     {
         "word": "greenhouse",
@@ -3048,7 +3352,8 @@ const viktorData = [
         "prefix": "",
         "root": "green+house",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "温室"
     },
     {
         "word": "gun",
@@ -3058,7 +3363,8 @@ const viktorData = [
         "prefix": "",
         "root": "可能来自Gunhilda",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "枪"
     },
     {
         "word": "guard",
@@ -3068,7 +3374,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自wardon'看护'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "警卫；保卫"
     },
     {
         "word": "hang",
@@ -3078,7 +3385,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hangian'悬挂'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "悬挂；绞死"
     },
     {
         "word": "happiness",
@@ -3088,7 +3396,8 @@ const viktorData = [
         "prefix": "",
         "root": "happy+ness",
         "suffix": "ess 是名词后缀，-ess 是个'公主标记'，表示女性。比如 actress = 女演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "幸福"
     },
     {
         "word": "hard",
@@ -3098,7 +3407,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自heard'坚硬'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "困难的；努力地"
     },
     {
         "word": "hardly",
@@ -3108,7 +3418,8 @@ const viktorData = [
         "prefix": "",
         "root": "hard+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "几乎不"
     },
     {
         "word": "hard-working",
@@ -3118,7 +3429,8 @@ const viktorData = [
         "prefix": "",
         "root": "hard+working",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "勤奋的"
     },
     {
         "word": "harm",
@@ -3128,7 +3440,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hearm'伤害'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "伤害"
     },
     {
         "word": "hate",
@@ -3138,7 +3451,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hatian'憎恨'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "憎恨"
     },
     {
         "word": "health",
@@ -3148,7 +3462,8 @@ const viktorData = [
         "prefix": "",
         "root": "heal+th",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "健康"
     },
     {
         "word": "heartbroken",
@@ -3158,7 +3473,8 @@ const viktorData = [
         "prefix": "",
         "root": "heart+broken",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "心碎的"
     },
     {
         "word": "heavily",
@@ -3168,7 +3484,8 @@ const viktorData = [
         "prefix": "",
         "root": "heavy+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "沉重地；大量地"
     },
     {
         "word": "height",
@@ -3178,7 +3495,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hiehþu'高'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "高度"
     },
     {
         "word": "hers",
@@ -3188,7 +3506,8 @@ const viktorData = [
         "prefix": "",
         "root": "her+s",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "她的"
     },
     {
         "word": "herself",
@@ -3198,7 +3517,8 @@ const viktorData = [
         "prefix": "",
         "root": "her+self",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "她自己"
     },
     {
         "word": "hospital",
@@ -3208,7 +3528,8 @@ const viktorData = [
         "prefix": "",
         "root": "hospit来自hospes'客人'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "医院"
     },
     {
         "word": "host",
@@ -3218,7 +3539,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hospes'主人'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "主人；主持"
     },
     {
         "word": "history",
@@ -3228,7 +3550,8 @@ const viktorData = [
         "prefix": "",
         "root": "histor来自histor'知道'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "历史"
     },
     {
         "word": "historical",
@@ -3238,7 +3561,8 @@ const viktorData = [
         "prefix": "",
         "root": "histor+ical",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "历史的"
     },
     {
         "word": "hold",
@@ -3248,7 +3572,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自healdan'握住'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "握住；举办"
     },
     {
         "word": "hobby",
@@ -3258,7 +3583,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hobi'小马'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "爱好"
     },
     {
         "word": "holiday",
@@ -3268,7 +3594,8 @@ const viktorData = [
         "prefix": "",
         "root": "holi来自halig'神圣'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "假期"
     },
     {
         "word": "honest",
@@ -3278,7 +3605,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自honos'荣誉'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "诚实的"
     },
     {
         "word": "available",
@@ -3288,7 +3616,8 @@ const viktorData = [
         "prefix": "a-来自ad-",
         "root": "vail来自valere'价值'",
         "suffix": "able 是形容词后缀，-able 是个'能力认证官'，加在词根后面表示'能够被……的'。比如 readable = 能被读的！",
-        "combo": ""
+        "combo": "",
+        "cn": "可以得到的"
     },
     {
         "word": "average",
@@ -3298,7 +3627,8 @@ const viktorData = [
         "prefix": "",
         "root": "aver来自阿拉伯语'损坏货物'",
         "suffix": "age 是名词后缀，-age 像个小仓库，把东西装进去变成名词。比如 storage = 储存的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "平均的"
     },
     {
         "word": "awake",
@@ -3308,7 +3638,8 @@ const viktorData = [
         "prefix": "a-表状态",
         "root": "wake来自古英语'醒'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "醒着的"
     },
     {
         "word": "awful",
@@ -3318,7 +3649,8 @@ const viktorData = [
         "prefix": "",
         "root": "awe来自古挪威语'敬畏'",
         "suffix": "ful 是形容词后缀，-ful 像只装满东西的杯子，表示'充满……的'。比如 beautiful = 充满美的 = 美丽的！",
-        "combo": ""
+        "combo": "",
+        "cn": "糟糕的"
     },
     {
         "word": "background",
@@ -3328,7 +3660,8 @@ const viktorData = [
         "prefix": "",
         "root": "back+ground",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "背景"
     },
     {
         "word": "balance",
@@ -3338,7 +3671,8 @@ const viktorData = [
         "prefix": "",
         "root": "bal来自bilanx'天平'",
         "suffix": "ance 是名词后缀，-ance 是个'状态记录仪'，把动作变成状态名词。比如 importance = 重要的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "平衡"
     },
     {
         "word": "awfully",
@@ -3348,7 +3682,8 @@ const viktorData = [
         "prefix": "",
         "root": "awe来自古挪威语'敬畏'",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "糟糕地"
     },
     {
         "word": "humour",
@@ -3358,7 +3693,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自humor'体液'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "幽默"
     },
     {
         "word": "hungry",
@@ -3368,7 +3704,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hungrig'饥饿'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "饥饿的"
     },
     {
         "word": "hunter",
@@ -3378,7 +3715,8 @@ const viktorData = [
         "prefix": "",
         "root": "hunt+er",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "猎人"
     },
     {
         "word": "hurt",
@@ -3388,7 +3726,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hurter'撞击'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "伤害；受伤的"
     },
     {
         "word": "ignore",
@@ -3398,7 +3737,8 @@ const viktorData = [
         "prefix": "ig-是in-变体'不'",
         "root": "nore来自noscere'知道'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "忽视"
     },
     {
         "word": "illness",
@@ -3408,7 +3748,8 @@ const viktorData = [
         "prefix": "",
         "root": "ill+ness",
         "suffix": "ess 是名词后缀，-ess 是个'公主标记'，表示女性。比如 actress = 女演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "疾病"
     },
     {
         "word": "image",
@@ -3418,7 +3759,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自imago'形象'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "形象；图像"
     },
     {
         "word": "imagination",
@@ -3428,7 +3770,8 @@ const viktorData = [
         "prefix": "",
         "root": "imag来自imago'形象'",
         "suffix": "ation 是名词后缀，-ate + -ion 组合而成，表示动作或结果。比如 education = 教育这件事！",
-        "combo": ""
+        "combo": "",
+        "cn": "想象力"
     },
     {
         "word": "importance",
@@ -3438,7 +3781,8 @@ const viktorData = [
         "prefix": "im-是in-变体'向内'",
         "root": "port来自portare'携带'",
         "suffix": "ance 是名词后缀，-ance 是个'状态记录仪'，把动作变成状态名词。比如 importance = 重要的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "重要性"
     },
     {
         "word": "impossible",
@@ -3448,7 +3792,8 @@ const viktorData = [
         "prefix": "im-表'不'",
         "root": "possible能够",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "不可能的"
     },
     {
         "word": "impress",
@@ -3458,7 +3803,8 @@ const viktorData = [
         "prefix": "im-是in-变体'向内'",
         "root": "press来自premere'压'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "使印象深刻"
     },
     {
         "word": "improve",
@@ -3468,7 +3814,8 @@ const viktorData = [
         "prefix": "im-表使",
         "root": "prove来自probare'测试'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "提高"
     },
     {
         "word": "independence",
@@ -3478,7 +3825,8 @@ const viktorData = [
         "prefix": "in-表示否定'不'",
         "root": "depend来自de-+pend'悬挂'，意为'依赖'",
         "suffix": "-ence是名词后缀，表示'性质、状态'",
-        "combo": ""
+        "combo": "",
+        "cn": "独立"
     },
     {
         "word": "industry",
@@ -3488,7 +3836,8 @@ const viktorData = [
         "prefix": "in-表在内",
         "root": "dustr来自struere'建造'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "工业；产业"
     },
     {
         "word": "influence",
@@ -3498,7 +3847,8 @@ const viktorData = [
         "prefix": "in-表向内",
         "root": "flu来自fluere'流动'",
         "suffix": "ence 是名词后缀，-ence 和 -ance 是姐妹，都表示名词性质。比如 difference = 差异！",
-        "combo": ""
+        "combo": "",
+        "cn": "影响"
     },
     {
         "word": "influential",
@@ -3508,7 +3858,8 @@ const viktorData = [
         "prefix": "in-表向内",
         "root": "flu来自fluere'流动'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "有影响力的"
     },
     {
         "word": "interested",
@@ -3518,7 +3869,8 @@ const viktorData = [
         "prefix": "inter-表之间",
         "root": "est来自esse'存在'",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "感兴趣的"
     },
     {
         "word": "interrupt",
@@ -3528,7 +3880,8 @@ const viktorData = [
         "prefix": "inter-表之间",
         "root": "rupt来自rumpere'破'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "打断"
     },
     {
         "word": "international",
@@ -3538,7 +3891,8 @@ const viktorData = [
         "prefix": "inter-表之间",
         "root": "nation来自nasci'出生'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "国际的"
     },
     {
         "word": "introduce",
@@ -3548,7 +3902,8 @@ const viktorData = [
         "prefix": "intro-表向内",
         "root": "duc来自ducere'引导'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "介绍"
     },
     {
         "word": "invent",
@@ -3558,7 +3913,8 @@ const viktorData = [
         "prefix": "in-表在上",
         "root": "vent来自venire'来'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "发明"
     },
     {
         "word": "invitation",
@@ -3568,7 +3924,8 @@ const viktorData = [
         "prefix": "in-表向内",
         "root": "vit来自vitare'邀请'",
         "suffix": "ation 是名词后缀，-ate + -ion 组合而成，表示动作或结果。比如 education = 教育这件事！",
-        "combo": ""
+        "combo": "",
+        "cn": "邀请"
     },
     {
         "word": "involved",
@@ -3578,7 +3935,8 @@ const viktorData = [
         "prefix": "in-表向内",
         "root": "volv来自volvere'卷'",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "参与的；卷入的"
     },
     {
         "word": "item",
@@ -3588,7 +3946,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自拉丁语item'同样地'，原指'同样地(列举下一项)'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "项目；物品"
     },
     {
         "word": "jeans",
@@ -3598,7 +3957,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自Genes'热那亚'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "牛仔裤"
     },
     {
         "word": "jogging",
@@ -3608,7 +3968,8 @@ const viktorData = [
         "prefix": "",
         "root": "jog来源不确定",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "慢跑"
     },
     {
         "word": "join",
@@ -3618,7 +3979,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自jungere'连接'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "参加"
     },
     {
         "word": "joke",
@@ -3628,7 +3990,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自jocus'笑话'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "笑话"
     },
     {
         "word": "journey",
@@ -3638,7 +4001,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自journee'一天路程'",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "旅程"
     },
     {
         "word": "joy",
@@ -3648,7 +4012,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自joie'欢乐'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "欢乐"
     },
     {
         "word": "judgement",
@@ -3658,7 +4023,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自judicare'判断'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "判断"
     },
     {
         "word": "junior",
@@ -3668,7 +4034,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自juvenis'年轻'",
         "suffix": "or 是名词后缀，-or 和 -er 是兄弟，都表示'做……的人'。比如 actor = 演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "初级的；年少的"
     },
     {
         "word": "kick",
@@ -3678,7 +4045,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自kiken'挥击'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "踢"
     },
     {
         "word": "kilogramme",
@@ -3688,7 +4056,8 @@ const viktorData = [
         "prefix": "kilo-表千",
         "root": "gramme来自gramma'克'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "千克"
     },
     {
         "word": "kindness",
@@ -3698,7 +4067,8 @@ const viktorData = [
         "prefix": "",
         "root": "kind+ness",
         "suffix": "ess 是名词后缀，-ess 是个'公主标记'，表示女性。比如 actress = 女演员！",
-        "combo": ""
+        "combo": "",
+        "cn": "善良"
     },
     {
         "word": "knock",
@@ -3708,7 +4078,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自cnocian'敲击'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "敲；击"
     },
     {
         "word": "knowledge",
@@ -3718,7 +4089,8 @@ const viktorData = [
         "prefix": "",
         "root": "know+ledge",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "知识"
     },
     {
         "word": "lab",
@@ -3728,7 +4100,8 @@ const viktorData = [
         "prefix": "",
         "root": "laboratory缩写",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "实验室"
     },
     {
         "word": "lack",
@@ -3738,7 +4111,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自lak'不足'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "缺乏"
     },
     {
         "word": "land",
@@ -3748,7 +4122,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自land'土地'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "土地；着陆"
     },
     {
         "word": "landscape",
@@ -3758,7 +4133,8 @@ const viktorData = [
         "prefix": "",
         "root": "land+scape(景色)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "风景"
     },
     {
         "word": "lady",
@@ -3768,7 +4144,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hlaefdige'揉面人'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "女士"
     },
     {
         "word": "label",
@@ -3778,7 +4155,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自labelle'布条'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "标签"
     },
     {
         "word": "laptop",
@@ -3788,7 +4166,8 @@ const viktorData = [
         "prefix": "",
         "root": "lap(大腿)+top",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "笔记本电脑"
     },
     {
         "word": "largely",
@@ -3798,7 +4177,8 @@ const viktorData = [
         "prefix": "",
         "root": "large+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "主要地"
     },
     {
         "word": "lately",
@@ -3808,7 +4188,8 @@ const viktorData = [
         "prefix": "",
         "root": "late+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "最近"
     },
     {
         "word": "latest",
@@ -3818,7 +4199,8 @@ const viktorData = [
         "prefix": "",
         "root": "late+st",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "最新的"
     },
     {
         "word": "launch",
@@ -3828,7 +4210,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自lanchier'掷矛'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "发射；发起"
     },
     {
         "word": "law",
@@ -3838,7 +4221,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自lagu'法律'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "法律"
     },
     {
         "word": "lawyer",
@@ -3848,7 +4232,8 @@ const viktorData = [
         "prefix": "",
         "root": "law+yer",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "律师"
     },
     {
         "word": "lead",
@@ -3858,7 +4243,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自lædan'引导'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "领导；带领"
     },
     {
         "word": "learned",
@@ -3868,7 +4254,8 @@ const viktorData = [
         "prefix": "",
         "root": "learn来自古英语leornian'学习'",
         "suffix": "-ed是形容词后缀，表示'……的'",
-        "combo": ""
+        "combo": "",
+        "cn": "有学问的"
     },
     {
         "word": "learner",
@@ -3878,7 +4265,8 @@ const viktorData = [
         "prefix": "",
         "root": "learn+er",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "学习者"
     },
     {
         "word": "least",
@@ -3888,7 +4276,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自læst'最少'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "最少的"
     },
     {
         "word": "lecture",
@@ -3898,7 +4287,8 @@ const viktorData = [
         "prefix": "",
         "root": "lect来自legere'读/讲'",
         "suffix": "ure 是名词后缀，-ure 表示结果。比如 pressure = 压力！",
-        "combo": ""
+        "combo": "",
+        "cn": "讲座"
     },
     {
         "word": "length",
@@ -3908,7 +4298,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自lengðu'长'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "长度"
     },
     {
         "word": "lesson",
@@ -3918,7 +4309,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自lectio'读'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "课；教训"
     },
     {
         "word": "licence",
@@ -3928,7 +4320,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自licentia'允许'",
         "suffix": "ence 是名词后缀，-ence 和 -ance 是姐妹，都表示名词性质。比如 difference = 差异！",
-        "combo": ""
+        "combo": "",
+        "cn": "许可证"
     },
     {
         "word": "lift",
@@ -3938,7 +4331,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自lyft'举起'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "举起；电梯"
     },
     {
         "word": "lightning",
@@ -3948,7 +4342,8 @@ const viktorData = [
         "prefix": "",
         "root": "lightn+ing",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "闪电"
     },
     {
         "word": "likely",
@@ -3958,7 +4353,8 @@ const viktorData = [
         "prefix": "",
         "root": "like+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "可能的"
     },
     {
         "word": "limited",
@@ -3968,7 +4364,8 @@ const viktorData = [
         "prefix": "",
         "root": "limit来自limes'界限'",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "有限的"
     },
     {
         "word": "liquid",
@@ -3978,7 +4375,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自liquidus'流动'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "液体"
     },
     {
         "word": "literature",
@@ -3988,7 +4386,8 @@ const viktorData = [
         "prefix": "",
         "root": "liter来自littera'文字'",
         "suffix": "ture 是名词后缀，-ture 表示结果。比如 picture = 画出来的东西 = 图画！",
-        "combo": ""
+        "combo": "",
+        "cn": "文学"
     },
     {
         "word": "litter",
@@ -3998,7 +4397,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自litière'垫草'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "垃圾；乱扔"
     },
     {
         "word": "lively",
@@ -4008,7 +4408,8 @@ const viktorData = [
         "prefix": "",
         "root": "live+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "活泼的"
     },
     {
         "word": "living",
@@ -4018,7 +4419,8 @@ const viktorData = [
         "prefix": "",
         "root": "live+ing",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "生活；活的"
     },
     {
         "word": "local",
@@ -4028,7 +4430,8 @@ const viktorData = [
         "prefix": "",
         "root": "loc来自locus'地方'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "当地的"
     },
     {
         "word": "lonely",
@@ -4038,7 +4441,8 @@ const viktorData = [
         "prefix": "",
         "root": "lone+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "孤独的"
     },
     {
         "word": "lost",
@@ -4048,7 +4452,8 @@ const viktorData = [
         "prefix": "",
         "root": "lose过去分词",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "迷路的；丢失的"
     },
     {
         "word": "luckily",
@@ -4058,7 +4463,8 @@ const viktorData = [
         "prefix": "",
         "root": "luck+ily",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "幸运地"
     },
     {
         "word": "magazine",
@@ -4068,7 +4474,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自makhazin'仓库'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "杂志"
     },
     {
         "word": "magic",
@@ -4078,7 +4485,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自magike'巫术'",
         "suffix": "ic 是形容词后缀，-ic 来自希腊语 -ikos，像件希腊长袍，穿上就是形容词。比如 historic = 历史的！",
-        "combo": ""
+        "combo": "",
+        "cn": "魔法；有魔力的"
     },
     {
         "word": "main",
@@ -4088,7 +4496,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自mægen'力量'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "主要的"
     },
     {
         "word": "manage",
@@ -4098,7 +4507,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自manus'手'",
         "suffix": "age 是名词后缀，-age 像个小仓库，把东西装进去变成名词。比如 storage = 储存的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "管理；设法做到"
     },
     {
         "word": "man-made",
@@ -4108,7 +4518,8 @@ const viktorData = [
         "prefix": "",
         "root": "man(人)+made(制造)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "人造的"
     },
     {
         "word": "manner",
@@ -4118,7 +4529,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自manuarius'手'",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "方式；举止"
     },
     {
         "word": "mark",
@@ -4128,7 +4540,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自mearc'标记'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "标记；分数"
     },
     {
         "word": "married",
@@ -4138,7 +4551,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自maritare'结婚'",
         "suffix": "ed 是形容词/过去式后缀，-ed 像面小镜子，表示'……的'或过去发生的事情。比如 excited = 感到兴奋的！",
-        "combo": ""
+        "combo": "",
+        "cn": "已婚的"
     },
     {
         "word": "match",
@@ -4148,7 +4562,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自mæcca'匹配'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "比赛；匹配"
     },
     {
         "word": "material",
@@ -4158,7 +4573,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自materia'物质'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "材料"
     },
     {
         "word": "maths",
@@ -4168,7 +4584,8 @@ const viktorData = [
         "prefix": "",
         "root": "mathematics缩写",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "数学"
     },
     {
         "word": "matter",
@@ -4178,7 +4595,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自materia'物质'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "事情；重要"
     },
     {
         "word": "mean",
@@ -4188,7 +4606,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自mænan'意思是'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "意思是；刻薄的"
     },
     {
         "word": "meaning",
@@ -4198,7 +4617,8 @@ const viktorData = [
         "prefix": "",
         "root": "mean+ing",
         "suffix": "ing 是形容词/名词/现在分词后缀，-ing 是个多面手！可以是现在分词、形容词或名词。比如 interesting = 令人感兴趣的！",
-        "combo": ""
+        "combo": "",
+        "cn": "意义"
     },
     {
         "word": "meanwhile",
@@ -4208,7 +4628,8 @@ const viktorData = [
         "prefix": "",
         "root": "mean(中间)+while",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "同时；其间"
     },
     {
         "word": "medical",
@@ -4218,7 +4639,8 @@ const viktorData = [
         "prefix": "",
         "root": "medic来自mederi'治疗'",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "医学的；医疗的"
     },
     {
         "word": "member",
@@ -4228,7 +4650,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自membrum'部分'",
         "suffix": "er 是名词后缀，-er 是个'身份制造机'，表示做某事的人或物。比如 teacher = 教书的人 = 老师！",
-        "combo": ""
+        "combo": "",
+        "cn": "成员；会员"
     },
     {
         "word": "mention",
@@ -4238,7 +4661,8 @@ const viktorData = [
         "prefix": "",
         "root": "ment来自mens'心智'",
         "suffix": "ion 是名词后缀，-ion 来自拉丁语 -io，是最常见的名词后缀之一。比如 action = 行动！",
-        "combo": ""
+        "combo": "",
+        "cn": "提到；说起"
     },
     {
         "word": "message",
@@ -4248,7 +4672,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自mittere'发送'",
         "suffix": "age 是名词后缀，-age 像个小仓库，把东西装进去变成名词。比如 storage = 储存的状态！",
-        "combo": ""
+        "combo": "",
+        "cn": "消息；信息"
     },
     {
         "word": "metal",
@@ -4258,7 +4683,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自metallon'矿'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "金属"
     },
     {
         "word": "method",
@@ -4268,7 +4694,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自methodos'跟随的路'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "方法"
     },
     {
         "word": "million",
@@ -4278,7 +4705,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自mille'千'",
         "suffix": "ion 是名词后缀，-ion 来自拉丁语 -io，是最常见的名词后缀之一。比如 action = 行动！",
-        "combo": ""
+        "combo": "",
+        "cn": "百万"
     },
     {
         "word": "mind",
@@ -4288,7 +4716,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自gemynd'记忆'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "头脑；介意"
     },
     {
         "word": "mistake",
@@ -4298,7 +4727,8 @@ const viktorData = [
         "prefix": "mis-表错误",
         "root": "take拿",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "错误；误解"
     },
     {
         "word": "mobile",
@@ -4308,7 +4738,8 @@ const viktorData = [
         "prefix": "",
         "root": "mob来自movere'移动'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "移动的；可动的"
     },
     {
         "word": "modern",
@@ -4318,7 +4749,8 @@ const viktorData = [
         "prefix": "",
         "root": "mod来自modo'现在'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "现代的"
     },
     {
         "word": "model",
@@ -4328,7 +4760,8 @@ const viktorData = [
         "prefix": "",
         "root": "mod来自modulus'度量'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "模型；模范"
     },
     {
         "word": "mix",
@@ -4338,7 +4771,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自miscere'混合'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "混合；混淆"
     },
     {
         "word": "mistaken",
@@ -4348,7 +4782,8 @@ const viktorData = [
         "prefix": "mis-表错误",
         "root": "taken拿",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "错误的；误解的"
     },
     {
         "word": "moment",
@@ -4358,7 +4793,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自momentum'移动'",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "时刻；瞬间"
     },
     {
         "word": "mood",
@@ -4368,7 +4804,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自mod'心境'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "心情；情绪"
     },
     {
         "word": "mountain",
@@ -4378,7 +4815,8 @@ const viktorData = [
         "prefix": "",
         "root": "mount来自mons'山'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "山；山脉"
     },
     {
         "word": "move",
@@ -4388,7 +4826,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自movere'移动'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "移动；搬家；行动"
     },
     {
         "word": "mud",
@@ -4398,7 +4837,8 @@ const viktorData = [
         "prefix": "",
         "root": "来源不确定",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "泥；泥浆"
     },
     {
         "word": "museum",
@@ -4408,7 +4848,8 @@ const viktorData = [
         "prefix": "",
         "root": "muse来自mousa'缪斯'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "博物馆"
     },
     {
         "word": "musician",
@@ -4418,7 +4859,8 @@ const viktorData = [
         "prefix": "",
         "root": "music+ian",
         "suffix": "ian 是名词/形容词后缀，-ian 表示'从事……的人'。比如 musician = 音乐家！",
-        "combo": ""
+        "combo": "",
+        "cn": "音乐家"
     },
     {
         "word": "narrow",
@@ -4428,7 +4870,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自nearu'狭窄'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "狭窄的"
     },
     {
         "word": "nation",
@@ -4438,7 +4881,8 @@ const viktorData = [
         "prefix": "",
         "root": "nat来自nasci'出生'",
         "suffix": "ion 是名词后缀，-ion 来自拉丁语 -io，是最常见的名词后缀之一。比如 action = 行动！",
-        "combo": ""
+        "combo": "",
+        "cn": "国家；民族"
     },
     {
         "word": "native",
@@ -4448,7 +4892,8 @@ const viktorData = [
         "prefix": "",
         "root": "nat来自nasci'出生'",
         "suffix": "ive 是形容词后缀，-ive 是个'形容词魔法师'，一加在词根后面，单词立刻变成形容词，表示'具有……性质的'。比如 active = 活跃的，creative = 有创造力的！",
-        "combo": ""
+        "combo": "",
+        "cn": "本地的；本地人"
     },
     {
         "word": "nature",
@@ -4458,7 +4903,8 @@ const viktorData = [
         "prefix": "",
         "root": "nat来自nasci'出生'",
         "suffix": "ure 是名词后缀，-ure 表示结果。比如 pressure = 压力！",
-        "combo": ""
+        "combo": "",
+        "cn": "自然；性质"
     },
     {
         "word": "naughty",
@@ -4468,7 +4914,8 @@ const viktorData = [
         "prefix": "",
         "root": "naught(无)+y",
         "suffix": "y 是形容词/名词后缀，-y 可以当形容词，也可以当名词。比如 sunny = 晴朗的！",
-        "combo": ""
+        "combo": "",
+        "cn": "淘气的；顽皮的"
     },
     {
         "word": "nearly",
@@ -4478,7 +4925,8 @@ const viktorData = [
         "prefix": "",
         "root": "near+ly",
         "suffix": "ly 是副词/形容词后缀，-ly 是副词制造机！加在形容词后面，就变成'……地'。比如 quickly = 快速地！",
-        "combo": ""
+        "combo": "",
+        "cn": "几乎；差不多"
     },
     {
         "word": "national",
@@ -4488,7 +4936,8 @@ const viktorData = [
         "prefix": "",
         "root": "nation+al",
         "suffix": "al 是形容词/名词后缀，-al 来自拉丁语 -alis，像件外套，穿上它单词就变成形容词或名词。比如 national = 国家的！",
-        "combo": ""
+        "combo": "",
+        "cn": "国家的；民族的"
     },
     {
         "word": "myself",
@@ -4498,7 +4947,8 @@ const viktorData = [
         "prefix": "",
         "root": "my+self",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "我自己"
     },
     {
         "word": "movement",
@@ -4508,7 +4958,8 @@ const viktorData = [
         "prefix": "",
         "root": "move+ment",
         "suffix": "ent 是形容词/名词后缀，-ent 可以当形容词用，也可以指人。比如 student = 学习的人 = 学生！",
-        "combo": ""
+        "combo": "",
+        "cn": "运动；活动"
     },
     {
         "word": "nod",
@@ -4518,7 +4969,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hnoddian'点头'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "点头"
     },
     {
         "word": "necessary",
@@ -4528,7 +4980,8 @@ const viktorData = [
         "prefix": "ne-表'不'",
         "root": "cess来自cedere'走'",
         "suffix": "ary 是形容词/名词后缀，-ary 像个小房子，表示'与……有关的'或场所。比如 library = 放书的地方 = 图书馆！",
-        "combo": ""
+        "combo": "",
+        "cn": "必要的；必需的"
     },
     {
         "word": "necklace",
@@ -4538,7 +4991,8 @@ const viktorData = [
         "prefix": "",
         "root": "neck+lace",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "项链"
     },
     {
         "word": "negative",
@@ -4548,7 +5002,8 @@ const viktorData = [
         "prefix": "neg-表否定",
         "root": "neg来自negare'否定'",
         "suffix": "ative 是形容词后缀，-ative 表示'有……倾向的'。比如 creative = 有创造倾向的 = 有创造力的！",
-        "combo": ""
+        "combo": "",
+        "cn": "消极的；否定的"
     },
     {
         "word": "neither",
@@ -4558,7 +5013,8 @@ const viktorData = [
         "prefix": "ne-表'不'",
         "root": "ither来自hwæther'哪一个'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "两者都不；也不"
     },
     {
         "word": "nervous",
@@ -4568,7 +5024,8 @@ const viktorData = [
         "prefix": "",
         "root": "nerv来自nervus'神经'",
         "suffix": "ous 是形容词后缀，-ous 来自拉丁语 -osus，是形容词外套。比如 dangerous = 危险的！",
-        "combo": ""
+        "combo": "",
+        "cn": "紧张的；焦虑的"
     },
     {
         "word": "network",
@@ -4578,7 +5035,8 @@ const viktorData = [
         "prefix": "",
         "root": "net(网)+work(工作/结构)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "网络；网状物"
     },
     {
         "word": "never",
@@ -4588,7 +5046,8 @@ const viktorData = [
         "prefix": "ne-来自古英语，表示'不'",
         "root": "ver来自æfre'曾经'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "从不；绝不"
     },
     {
         "word": "news",
@@ -4598,7 +5057,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自new'新'的复数，原指'新发生的事情'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "新闻；消息"
     },
     {
         "word": "newspaper",
@@ -4608,7 +5068,8 @@ const viktorData = [
         "prefix": "",
         "root": "news(新闻)+paper(纸)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "报纸"
     },
     {
         "word": "nod",
@@ -4618,7 +5079,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自hnoddian'点头'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "点头"
     },
     {
         "word": "noise",
@@ -4628,7 +5090,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自拉丁语nausea'恶心/不适'，后指'噪音'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "噪音；喧闹声"
     },
     {
         "word": "none",
@@ -4638,7 +5101,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自ne'不'+an'一'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "没有一个；毫无"
     },
     {
         "word": "normal",
@@ -4648,7 +5112,8 @@ const viktorData = [
         "prefix": "",
         "root": "norm来自拉丁语norma'规则/标准'",
         "suffix": "-al是形容词后缀，像件外套，norm穿上它立刻变成形容词！",
-        "combo": ""
+        "combo": "",
+        "cn": "正常的；常态"
     },
     {
         "word": "notebook",
@@ -4658,7 +5123,8 @@ const viktorData = [
         "prefix": "",
         "root": "note(笔记)+book(本)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "笔记本"
     },
     {
         "word": "nothing",
@@ -4668,7 +5134,8 @@ const viktorData = [
         "prefix": "",
         "root": "no来自古英语na'不'",
         "suffix": "thing来自古英语þing'事物'",
-        "combo": ""
+        "combo": "",
+        "cn": "没有什么；没有东西"
     },
     {
         "word": "northern",
@@ -4678,7 +5145,8 @@ const viktorData = [
         "prefix": "",
         "root": "north(北)+-ern(方向的)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "北方的；北部的"
     },
     {
         "word": "notice",
@@ -4688,7 +5156,8 @@ const viktorData = [
         "prefix": "",
         "root": "not来自nota'标记/知道'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "注意到；通知"
     },
     {
         "word": "novel",
@@ -4698,7 +5167,8 @@ const viktorData = [
         "prefix": "",
         "root": "nov来自novus'新的'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "小说；新奇的"
     },
     {
         "word": "nowadays",
@@ -4708,7 +5178,8 @@ const viktorData = [
         "prefix": "",
         "root": "now(现在)",
         "suffix": "days(日子)",
-        "combo": ""
+        "combo": "",
+        "cn": "现今；现在"
     },
     {
         "word": "object",
@@ -4718,7 +5189,8 @@ const viktorData = [
         "prefix": "ob-表'朝向'",
         "root": "ject来自jacere'投掷'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "物体；反对"
     },
     {
         "word": "ocean",
@@ -4728,7 +5200,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自希腊语okeanos，原指'环绕大地的河流'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "海洋"
     },
     {
         "word": "official",
@@ -4738,7 +5211,8 @@ const viktorData = [
         "prefix": "of-是ob-在f前的同化变体，表示'朝向'",
         "root": "fic来自拉丁语facere'做'",
         "suffix": "-ial是形容词后缀",
-        "combo": ""
+        "combo": "",
+        "cn": "官方的；官员"
     },
     {
         "word": "once",
@@ -4748,7 +5222,8 @@ const viktorData = [
         "prefix": "来自古英语anes'一次'",
         "root": "",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "一次；曾经；一旦"
     },
     {
         "word": "online",
@@ -4758,7 +5233,8 @@ const viktorData = [
         "prefix": "on表示'在……上'",
         "root": "line来自古英语line'线'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "在线的；在线地"
     },
     {
         "word": "opening",
@@ -4768,7 +5244,8 @@ const viktorData = [
         "prefix": "",
         "root": "open来自古英语openian'打开'",
         "suffix": "-ing可以构成名词或现在分词",
-        "combo": ""
+        "combo": "",
+        "cn": "开放；开口；开始的"
     },
     {
         "word": "opinion",
@@ -4778,7 +5255,8 @@ const viktorData = [
         "prefix": "o-是op-的简写，表示'朝向'",
         "root": "pin来自拉丁语opinari'认为'",
         "suffix": "-ion是名词后缀，把动作变成名词",
-        "combo": ""
+        "combo": "",
+        "cn": "意见；看法"
     },
     {
         "word": "opera",
@@ -4788,7 +5266,8 @@ const viktorData = [
         "prefix": "",
         "root": "oper来自opera'工作/作品'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "歌剧"
     },
     {
         "word": "operate",
@@ -4798,7 +5277,8 @@ const viktorData = [
         "prefix": "",
         "root": "oper来自拉丁语opera'工作'",
         "suffix": "-ate是动词后缀，像开关一样，一加就变动作！",
-        "combo": ""
+        "combo": "",
+        "cn": "操作；运转；做手术"
     },
     {
         "word": "order",
@@ -4808,7 +5288,8 @@ const viktorData = [
         "prefix": "",
         "root": "ord来自拉丁语ordinis'顺序'",
         "suffix": "-er是名词后缀",
-        "combo": ""
+        "combo": "",
+        "cn": "顺序；命令；订购"
     },
     {
         "word": "opportunity",
@@ -4818,7 +5299,8 @@ const viktorData = [
         "prefix": "op-是ob-在p前的同化变体，表示'朝向'",
         "root": "portun来自拉丁语portus'港口'。古人做生意要看风向，港口风向对了，机会就来了！",
         "suffix": "-ity是名词后缀",
-        "combo": ""
+        "combo": "",
+        "cn": "机会；时机"
     },
     {
         "word": "opposite",
@@ -4828,7 +5310,8 @@ const viktorData = [
         "prefix": "op-是ob-在p前的同化变体，表示'对着/相反'",
         "root": "posit来自ponere'放置'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "相反的；对面"
     },
     {
         "word": "ordinary",
@@ -4838,7 +5321,8 @@ const viktorData = [
         "prefix": "",
         "root": "ordin来自拉丁语ordinis'顺序'",
         "suffix": "-ary是形容词后缀",
-        "combo": ""
+        "combo": "",
+        "cn": "普通的；平常的"
     },
     {
         "word": "organization",
@@ -4848,7 +5332,8 @@ const viktorData = [
         "prefix": "",
         "root": "organ来自希腊语organon'工具/器官'",
         "suffix": "-ize是动词后缀，-ation是名词后缀",
-        "combo": ""
+        "combo": "",
+        "cn": "组织；机构"
     },
     {
         "word": "otherwise",
@@ -4858,7 +5343,8 @@ const viktorData = [
         "prefix": "",
         "root": "other来自古英语oðer'另一个'",
         "suffix": "-wise是副词后缀，表示'方式'",
-        "combo": ""
+        "combo": "",
+        "cn": "否则；不然"
     },
     {
         "word": "outgoing",
@@ -4868,7 +5354,8 @@ const viktorData = [
         "prefix": "",
         "root": "out(向外)+go(走)",
         "suffix": "-ing构成形容词或名词",
-        "combo": ""
+        "combo": "",
+        "cn": "外向的；友好的"
     },
     {
         "word": "overcome",
@@ -4878,7 +5365,8 @@ const viktorData = [
         "prefix": "over-表示'越过'",
         "root": "come来自古英语cuman'来'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "克服；战胜"
     },
     {
         "word": "overnight",
@@ -4888,7 +5376,8 @@ const viktorData = [
         "prefix": "over-表示'贯穿'",
         "root": "night来自古英语niht'夜'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "通宵；夜间的"
     },
     {
         "word": "owner",
@@ -4898,7 +5387,8 @@ const viktorData = [
         "prefix": "",
         "root": "own来自古英语agan'拥有'",
         "suffix": "-er是名词后缀，表示'做……的人'",
-        "combo": ""
+        "combo": "",
+        "cn": "主人；所有者"
     },
     {
         "word": "pain",
@@ -4908,7 +5398,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自拉丁语poena'惩罚'，与'痛苦'有关",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "疼痛；痛苦"
     },
     {
         "word": "painless",
@@ -4918,7 +5409,8 @@ const viktorData = [
         "prefix": "",
         "root": "pain来自拉丁语poena'惩罚/痛苦'",
         "suffix": "-less是形容词后缀，表示'没有……的'",
-        "combo": ""
+        "combo": "",
+        "cn": "无痛的；轻松的"
     },
     {
         "word": "painting",
@@ -4928,7 +5420,8 @@ const viktorData = [
         "prefix": "",
         "root": "paint来自拉丁语pingere'画'",
         "suffix": "-ing可以构成名词",
-        "combo": ""
+        "combo": "",
+        "cn": "绘画；油画"
     },
     {
         "word": "pale",
@@ -4938,7 +5431,8 @@ const viktorData = [
         "prefix": "",
         "root": "来自拉丁语pallidus'苍白的'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "苍白的；暗淡的"
     },
     {
         "word": "paper-cut",
@@ -4948,7 +5442,8 @@ const viktorData = [
         "prefix": "",
         "root": "paper(纸)+cut(剪)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "剪纸"
     },
     {
         "word": "parking",
@@ -4958,7 +5453,8 @@ const viktorData = [
         "prefix": "",
         "root": "park来自古法语parc'围场'",
         "suffix": "-ing构成名词",
-        "combo": ""
+        "combo": "",
+        "cn": "停车；停车场"
     },
     {
         "word": "particular",
@@ -4968,7 +5464,8 @@ const viktorData = [
         "prefix": "",
         "root": "partic来自pars'部分'",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "特别的；特定的"
     },
     {
         "word": "palace",
@@ -4978,6 +5475,7 @@ const viktorData = [
         "prefix": "",
         "root": "来自拉丁语palatium'帕拉蒂尼山'(罗马皇宫所在地)",
         "suffix": "",
-        "combo": ""
+        "combo": "",
+        "cn": "宫殿"
     }
 ];
