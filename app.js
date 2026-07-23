@@ -69,6 +69,7 @@ function goToPage(pageName) {
     // 切换到维克多页面时初始化下拉框
     if (pageName === 'viktor') {
         initViktorDays();
+        initViktorRoots();
     }
 
     // 关闭移动端下拉菜单
@@ -760,19 +761,53 @@ function initViktorDays() {
     });
 }
 
+function initViktorRoots() {
+    const select = document.getElementById('viktorRootSelect');
+    if (!select || !viktorData) return;
+    if (select.options.length > 1) return;
+
+    // 从 formula 中提取词根词缀
+    const rootSet = new Set();
+    viktorData.forEach(w => {
+        const f = w.formula;
+        // 格式: "word = prefix + root + suffix"
+        const eqIdx = f.indexOf('=');
+        if (eqIdx === -1) return;
+        const parts = f.slice(eqIdx + 1).split('+').map(s => s.trim());
+        parts.forEach(p => {
+            if (p) rootSet.add(p);
+        });
+    });
+
+    // 按长度和字母排序
+    const roots = [...rootSet].sort((a, b) => {
+        if (a.length !== b.length) return a.length - b.length;
+        return a.localeCompare(b);
+    });
+
+    roots.forEach(r => {
+        const opt = document.createElement('option');
+        opt.value = r;
+        opt.textContent = r;
+        select.appendChild(opt);
+    });
+}
+
 function renderViktorList() {
-    const select = document.getElementById('viktorDaySelect');
+    const daySelect = document.getElementById('viktorDaySelect');
+    const rootSelect = document.getElementById('viktorRootSelect');
     const list = document.getElementById('viktorList');
     const empty = document.getElementById('viktorEmpty');
     const randomBtn = document.getElementById('viktorRandomBtn');
     const randomCnBtn = document.getElementById('viktorRandomCnBtn');
     const statsEl = document.getElementById('viktorBankStats');
-    if (!select || !list) return;
+    if (!list) return;
 
-    viktorCurrentDay = select.value;
+    viktorCurrentDay = daySelect.value;
+    const selectedRoot = rootSelect.value;
 
-    // 未选 Day 时，按bank模式显示
-    if (!viktorCurrentDay && viktorCurrentBank === 'all') {
+    // 未选任何条件
+    if (!viktorCurrentDay && !selectedRoot && viktorCurrentBank === 'all') {
         list.innerHTML = '';
         empty.style.display = 'block';
         randomBtn.style.display = 'none';
@@ -782,19 +817,17 @@ function renderViktorList() {
     }
 
     empty.style.display = 'none';
-    randomBtn.style.display = 'inline-flex';
-    randomCnBtn.style.display = 'inline-flex';
 
-    // 按bank筛选
-    let words;
-    if (viktorCurrentDay) {
-        words = viktorData.filter(w => w.day === viktorCurrentDay);
-    } else {
-        words = viktorData;
+    // 按天数筛选
+    let words = viktorCurrentDay ? viktorData.filter(w => w.day === viktorCurrentDay) : [...viktorData];
+
+    // 按词根词缀筛选
+    if (selectedRoot) {
+        words = words.filter(w => w.formula.includes(selectedRoot));
     }
 
+    // 按学会状态筛选
     const mastered = getViktorMastered();
-
     if (viktorCurrentBank === 'learned') {
         words = words.filter(w => mastered[w.word]);
     } else if (viktorCurrentBank === 'unlearned') {
@@ -802,14 +835,17 @@ function renderViktorList() {
     }
 
     // 更新统计
-    const allWords = viktorCurrentDay ? viktorData.filter(w => w.day === viktorCurrentDay) : viktorData;
-    const learnedCount = allWords.filter(w => mastered[w.word]).length;
-    const total = allWords.length;
+    const allFiltered = viktorCurrentDay ? viktorData.filter(w => w.day === viktorCurrentDay) : viktorData;
+    const allRootFiltered = selectedRoot ? allFiltered.filter(w => w.formula.includes(selectedRoot)) : allFiltered;
+    const learnedCount = allRootFiltered.filter(w => mastered[w.word]).length;
+    const total = allRootFiltered.length;
     if (statsEl) {
         statsEl.innerHTML = `<span>共 ${total} 词</span><span class="bank-learned-stat">✅ 已学会 ${learnedCount}</span><span class="bank-unlearned-stat">❌ 未学会 ${total - learnedCount}</span>`;
     }
 
-    // 更新抽查池
+    // 有筛选结果时显示抽查按钮
+    randomBtn.style.display = words.length > 0 ? 'inline-flex' : 'none';
+    randomCnBtn.style.display = words.length > 0 ? 'inline-flex' : 'none';
     viktorRandomPool = words;
 
     if (words.length === 0) {

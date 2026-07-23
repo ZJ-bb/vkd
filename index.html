@@ -257,11 +257,19 @@
         <!-- 维克多页面 -->
         <section id="viktor" class="page">
             <div class="viktor-toolbar">
-                <div class="viktor-day-select">
-                    <label for="viktorDaySelect">选择天数</label>
-                    <select id="viktorDaySelect" onchange="renderViktorList()">
-                        <option value="">-- 请选择 Day --</option>
-                    </select>
+                <div class="viktor-filter-row">
+                    <div class="viktor-day-select">
+                        <label for="viktorDaySelect">天数</label>
+                        <select id="viktorDaySelect" onchange="renderViktorList()">
+                            <option value="">-- 全部 --</option>
+                        </select>
+                    </div>
+                    <div class="viktor-rootselect">
+                        <label for="viktorRootSelect">词根词缀</label>
+                        <select id="viktorRootSelect" onchange="renderViktorList()">
+                            <option value="">-- 全部 --</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="viktor-bank-tabs">
                     <button class="viktor-bank-btn active" data-bank="all" onclick="switchViktorBank('all',this)">全部</button>
